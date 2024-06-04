@@ -1,0 +1,42 @@
+.tamil {
+    width: 100%;
+    height: 100vh;
+    /* position: relative;
+    padding: 0 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* overflow: hidden;  */
+    background-color:rgba(0,0,0,0.1);
+}
+
+.tamil .content {
+    text-align: center;
+    /* position: relative; 
+    z-index: 1; */
+}
+
+.tamil .content h1 {
+    font-size: 160px;
+    color: black;
+    font-weight: 160;
+}
+
+.tamil .content p {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 24px;
+    padding: 20px 17px;
+    margin-top: 50px;
+}
+
+.background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
