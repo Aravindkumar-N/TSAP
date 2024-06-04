@@ -455,8 +455,14 @@
                 </div>
             </div>
         </div>
+       
         <div class="toggle1">
-            <div class="toggle">
+
+                    <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onclick="togglePricing()" />
+            <label class="form-check-label" id="toggleText" for="flexSwitchCheckChecked">Switch to Yearly Pricing</label>
+            </div>
+                        <!-- <div class="toggle">
             
                 <label>
                     <input
@@ -467,7 +473,7 @@
                     
                     <span id="toggleText">Switch to Yearly Pricing</span>
                 </label>
-            </div>
+            </div> -->
 
             <div class="form">
                 <div id="monthlyPricing" class="pricing-container">
@@ -496,21 +502,21 @@
                             <h2>Family</h2>
                             <h4>
                                 1000 PLN/year <br />
-                                <small>Save 200 PLN!</small>
+                                <small>*Save 200 PLN!</small>
                             </h4>
                         </div>
                         <div class="package" id="six-months">
                             <h2>Individual</h2>
                             <h4>
                                 500 PLN/year <br />
-                                <small>Save 100 PLN!</small>
+                                <small>*Save 100 PLN!</small>
                             </h4>
                         </div>
                         <div class="package" id="annual">
                             <h2>Student</h2>
                             <h4>
                                 300 PLN/year <br />
-                                <small>Save 60 PLN!</small>
+                                <small>*Save 60 PLN!</small>
                             </h4>
                         </div>
                     </div>
@@ -519,7 +525,7 @@
             </div>
             <div>
                 <p>
-                    All members will receive the above-mentioned benefits from
+                   * All members will receive the above-mentioned benefits from
                     TSAP for the selected duration, whether they choose a
                     monthly or yearly subscription.Save money by choosing our
                     yearly plan!

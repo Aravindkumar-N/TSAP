@@ -22386,6 +22386,7 @@ label.error {
     border: 2px solid var(--primary);
     margin-left: -35px;
     margin-top: 1px;
+    margin-right: 7px;
 }
 .form-check-input[type="checkbox"]:checked {
     background-color: var(--primary);
@@ -31590,8 +31591,9 @@ ul a.rsswidget:hover {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    text-align: left;
-    display: inline-flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     border: 1px solid #eeeeee;
     border-radius: var(--border-radius-base);
@@ -38798,11 +38800,102 @@ button:hover {
 .heading-map h3{
     font-size: 3em;
     font-weight: bolder;
+    width: 80%;
     border-bottom: 2px solid black;
-    margin-bottom: 100px;
+   
+    margin: 0% 10% 10% 10%;
 }
-.heading-map h3 span{
+/* .heading-map h3 span{
     font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
+    
+} */
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+   
 }
+.logos img{
+    width: 30%;
+}
+.logo1{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+@media only screen and (max-width:980px){
+   .logos .counter-style-2 span{
+font-size: 40px;
+   }
+}
+@media only screen and (max-width:600px){
+
+    .logos{
+       
+        flex-direction: column;
+       
+       
+    }
+}
+
+
+.grid8{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f4f8;
+    margin: 0% 5%;
+    padding: 20px;
+
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.first-tile{
+    width: 20%;
+    min-height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-tile img{
+    width: 50%;
+}
+.gridpara .separator {
+    height: 5px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0% 10%;
+    background: orange;
+
+}
+.gridlogo{
+    height: 60%;
+    
+}
+.gridpara{
+    height: 40%;
+    margin-top: 5px;
+}
+.gridpara p{
+    margin-top: 20px;
+}
+
+.toggle1 .form-check-input[type="checkbox"] {
+    height: 25px;
+    width: 50px;
+    border: 2px solid var(--primary);
+    margin-left: -35px;
+    margin-top: 1px;
+    margin-right: 7px;
+}
+    
 /*# sourceMappingURL=style.css.map */
