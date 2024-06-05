@@ -135,20 +135,20 @@
                         <br />
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic1.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Discounts on Indian Spices and
                                         Groceries</a
                                     >
@@ -163,20 +163,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic2.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Exclusive Access to Tamil Sangam
                                         Events</a
                                     >
@@ -191,20 +191,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic3.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Access to Tamil Library</a
                                     >
                                 </h5>
@@ -219,20 +219,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic4.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Legal and Immigration Assistance</a
                                     >
                                 </h5>
@@ -246,20 +246,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic5.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Health and Wellness Support</a
                                     >
                                 </h5>
@@ -274,20 +274,20 @@
 
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic6.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Educational Support</a
                                     >
                                 </h5>
@@ -301,20 +301,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic7.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Networking Opportunities</a
                                     >
                                 </h5>
@@ -328,20 +328,20 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic8.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Travel Assistance</a
                                     >
                                 </h5>
@@ -355,11 +355,11 @@
                         </div>
                         <!-- <div class="dz-card style-1 blog-half">
 								<div class="dz-media">
-									<a href="blog-details.html"><img src="images/blog/blog-grid/pic9.jpg" alt=""></a>
-									<a href="blog-details.html" class="btn btn-secondary">Get</a>
+									<a href="#membership"><img src="images/blog/blog-grid/pic9.jpg" alt=""></a>
+									<a href="#membership" class="btn btn-secondary">Get</a>
 								</div>
 								<div class="dz-info">
-									<h5 class="dz-title"><a href="blog-details.html">Community Support Services</a></h5>
+									<h5 class="dz-title"><a href="#membership">Community Support Services</a></h5>
 									<p>Whether you're new to Poland or need a helping hand, our community support services assist with housing, job placements, and other essential needs.</p>
 									
 									
@@ -367,20 +367,20 @@
 							</div> -->
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="blog-details.html"
+                                <a href="#membership"
                                     ><img
                                         src="images/blog/blog-grid/pic10.jpg"
                                         alt=""
                                 /></a>
                                 <a
-                                    href="blog-details.html"
+                                    href="#membership"
                                     class="btn btn-secondary"
                                     >Get</a
                                 >
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="blog-details.html"
+                                    <a href="#membership"
                                         >Special Offers from Partner Brands</a
                                     >
                                 </h5>
@@ -456,7 +456,7 @@
             </div>
         </div>
        
-        <div class="toggle1">
+        <div class="toggle1" id="membership">
 
                     <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onclick="togglePricing()" />
@@ -502,21 +502,21 @@
                             <h2>Family</h2>
                             <h4>
                                 1000 PLN/year <br />
-                                <small>*Save 200 PLN!</small>
+                                <h3>*Save 200 PLN!</h3>
                             </h4>
                         </div>
                         <div class="package" id="six-months">
                             <h2>Individual</h2>
                             <h4>
                                 500 PLN/year <br />
-                                <small>*Save 100 PLN!</small>
+                                <h3>*Save 100 PLN!</h3>
                             </h4>
                         </div>
                         <div class="package" id="annual">
                             <h2>Student</h2>
                             <h4>
                                 300 PLN/year <br />
-                                <small>*Save 60 PLN!</small>
+                                <h3>*Save 60 PLN!</h3>
                             </h4>
                         </div>
                     </div>
@@ -526,12 +526,22 @@
             <div>
                 <p>
                    * All members will receive the above-mentioned benefits from
-                    TSAP for the selected duration, whether they choose a
+                    TSAP for who are yearly member or paid 3 months continuously, whether they choose a
                     monthly or yearly subscription.Save money by choosing our
                     yearly plan!
                 </p>
             </div>
         </div>
+        <section class="content-inner-2">
+			<div class="container">
+				<div class="section-head text-center mb-0">
+					<h6 class="sub-title">Few Steps more</h6>
+					<h2 class="title">Becoming a member is easy!</h2>
+					<p>Sign up on our website or visit our office in Warsaw central to enjoy all these amazing benefits. Join our community today and start making the most of what we offer.</p>
+					<a href="contact-us.html" class="btn btn-primary">Contact</a>
+				</div>
+			</div>
+		</section>
     </section>
 
     <!-- Call Action -->

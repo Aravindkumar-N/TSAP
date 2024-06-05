@@ -4,7 +4,7 @@
 	<div class="page-content bg-white">
 		
 		<!-- Banner  -->
-		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/banner/bnr4.jpg');">
+		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/background/bg12.jpg');">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
 					<h1>Blog</h1>
@@ -12,7 +12,7 @@
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Blog Grid</li>
+							<li class="breadcrumb-item active" aria-current="page">Blog</li>
 						</ul>
 					</nav>
 					<!-- Breadcrumb Row End -->

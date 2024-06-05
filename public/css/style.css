@@ -100,7 +100,7 @@
     --dark: #0b161e;
     --secondary: #f08000fc;
     --secondary-dark: #121e31;
-    --secondary-hover: #eb4c40;
+    --secondary-hover: #00a65a;
     --rgba-secondary-1: rgba(255, 207, 203, 0.1);
     --rgba-secondary-2: rgba(255, 207, 203, 0.2);
     --rgba-secondary-3: rgba(255, 207, 203, 0.3);
@@ -17399,6 +17399,9 @@ strong,
 .max-w400 {
     max-width: 400px;
 }
+.max-w400 {
+    max-width: 400px;
+}
 
 .max-w500 {
     max-width: 500px;
@@ -17406,6 +17409,10 @@ strong,
 
 .max-w600 {
     max-width: 600px;
+}
+#bold {
+    font-weight:bolder;
+    color: black;
 }
 
 .max-w700 {
@@ -18409,6 +18416,7 @@ section {
     font-size: 16px;
     padding: 30px 15px;
     cursor: pointer;
+    text-align: center;
     font-weight: 500;
     display: inline-block;
     position: relative;
@@ -18420,6 +18428,8 @@ section {
 @media only screen and (max-width: 1199px) {
     .header-nav .nav > li > a {
         padding: 40px 15px;
+       text-align: center;
+
     }
 }
 @media only screen and (max-width: 991px) {
@@ -18428,6 +18438,8 @@ section {
         display: block;
         line-height: 30px;
         font-size: 16px;
+        text-align: center;
+
     }
 }
 .header-nav .nav > li > a span {
@@ -21052,7 +21064,7 @@ footer .widget_services ul li {
     position: absolute;
     bottom: 30px;
     right: 0;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     width: 24vw;
     z-index: -1;
 }
@@ -38368,6 +38380,9 @@ pre {
     text-align: center;
     gap: 20px;
 }
+.packages h3{
+    font-weight: bolder;
+}
 
 .package {
     border: 1px solid #ccc;
@@ -38519,7 +38534,8 @@ button:hover {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    max-width: 80%;
+    max-width: 100%;
+    padding-left: 70px;
 }
 .info {
     display: flex;
@@ -38529,8 +38545,8 @@ button:hover {
 
 .info img {
     margin-right: 20px;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 
 .info p {
@@ -38898,4 +38914,20 @@ font-size: 40px;
     margin-right: 7px;
 }
     
+
+.mem-row{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.mem-btn{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
 /*# sourceMappingURL=style.css.map */

@@ -42,12 +42,12 @@
 									<h4 class="title">Category</h4>
 								</div>
 								<ul>
-									<li class="cat-item"><a href="javascript:void(0);">Software</a></li>                                         
-									<li class="cat-item"><a href="javascript:void(0);">Analysis</a></li>                                         
-									<li class="cat-item"><a href="javascript:void(0);">Cryptocurrency</a></li>                                         
-									<li class="cat-item"><a href="javascript:void(0);">Technology</a></li>                                         
-									<li class="cat-item"><a href="javascript:void(0);">Mobile App</a></li> 
-									<li class="cat-item"><a href="javascript:void(0);">Development</a></li> 
+									<li class="cat-item"><a href="javascript:void(0);">Indian Products</a></li>                                         
+									<li class="cat-item"><a href="javascript:void(0);">Resturants</a></li>                                         
+									<li class="cat-item"><a href="javascript:void(0);">Cloths</a></li>                                         
+									<li class="cat-item"><a href="javascript:void(0);">Medi-products</a></li>                                         
+									 <li class="cat-item"><a href="javascript:void(0);">Others</a></li> 
+									<!--<li class="cat-item"><a href="javascript:void(0);">Development</a></li>  -->
 								</ul>
 							</div>
 							<div class="widget style-1 widget_tag_cloud">
@@ -55,15 +55,15 @@
 									<h4 class="title">Popular Tags</h4>
 								</div>
 								<div class="tagcloud"> 
-									<a href="javascript:void(0);">Mock-Ups</a>
-									<a href="javascript:void(0);">UI</a>
-									<a href="javascript:void(0);">Websites</a>
-									<a href="javascript:void(0);">PSD Templates</a>
-									<a href="javascript:void(0);">Branding</a>
-									<a href="javascript:void(0);">WordPress</a>
-									<a href="javascript:void(0);">Graphic Design</a>
-									<a href="javascript:void(0);">UI Kit</a>
-									<a href="javascript:void(0);">Development</a>
+									<a href="javascript:void(0);">TSAP</a>
+									<a href="javascript:void(0);">India</a>
+									<a href="javascript:void(0);">groceries</a>
+									<a href="javascript:void(0);">vegetables</a>
+									<a href="javascript:void(0);">cloths</a>
+									<a href="javascript:void(0);">language</a>
+									<a href="javascript:void(0);">help Design</a>
+									<a href="javascript:void(0);">education</a>
+									<a href="javascript:void(0);">more</a>
 								</div>
 							</div>
 						</aside>

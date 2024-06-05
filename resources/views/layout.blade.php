@@ -128,11 +128,14 @@
 											
 										</ul>
 									</li>
+									<li><a href="{{url('/commercial')}}">Commercial</a></li>
+									<li><a href="{{url('/gallery')}}">Gallery</a></li>
+									<li><a href="{{url('/blog')}}">Blog</a></li>
 									<li><a href="{{url('/faq')}}">Faq</a></li>
 									
-									<li class="sub-menu-down"><a href="javascript:void(0);">Projects</a>
+									<li class="sub-menu-down"><a href="javascript:void(0);">Projects<i class="fa fa-angle-right"></i></a>
 								<ul class="sub-menu">
-									<li><a href="{{url('/project')}}">Project</a></li>
+									<li><a href="{{url('/project')}}">Project</a> </li>
 									<li><a href="{{url('/project_categories')}}">Project Categories</a></li>
 									<li><a href="{{url('/project_sidebar')}}">Project Sidebar</a></li>
 									<li><a href="{{url('/project_story')}}">Project Story</a></li>
@@ -148,8 +151,9 @@
 
 								
 							</li>
-							
-									<li><a href="{{url('/certificates')}}">Certificates</a></li>
+							<li class="sub-menu-down"><a href="javascript:void(0);">Others<i class="fa fa-angle-right"></i></a> 
+								<ul class="sub-menu">
+								<li><a href="{{url('/certificates')}}">Certificates</a></li>
 									<li><a href="{{url('/ask_qn')}}">Ask A Question</a></li>
 									<li><a href="{{url('/happy_clients')}}">Happy Clients</a></li>
 									<li><a href="{{url('/how_work')}}">How It Works</a></li>
@@ -160,6 +164,10 @@
 									<li><a href="{{url('/error')}}">Error 404</a></li>
 								</ul>
 							</li>
+							
+									
+								</ul>
+							</li>
 							<!-- <li class="sub-menu-down"><a href="javascript:void(0);">Fundraiser</a>
 								<ul class="sub-menu">
 									<li><a href="{{url('/browse_fundraiser')}}">Browse Fundraiser</a></li>
@@ -167,19 +175,19 @@
 									<li><a href="{{url('/fundraiser_detail')}}">Fundraiser Detail</a></li>
 								</ul>
 							</li> -->
-							<li><a href="{{url('/tamilnadu')}}">Tamilnadu</a></li>
+							<li><a href="{{url('/tamilnadu')}}">Welcome<br> Tamilnadu</a></li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">Membership</a>
 								<ul class="sub-menu">
 								<li><a href="{{url('/become_member')}}">Get A Membership</a></li>
 								<li><a href="{{url('/offers')}}">Offers</a></li>
-								<li><a href="{{url('/commercial')}}">Commercial</a></li>
+								
 								</ul>
 							</li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">News</a>
 								<ul class="sub-menu">
 									<li><a href="{{url('/notice_board')}}">Notice Board</a></li>
 									<li><a href="{{url('/anual_report')}}">Anual Report</a></li>
-									<li><a href="{{url('/gallery')}}">Gallery</a></li>
+									
 								</ul>
 							</li>
 							

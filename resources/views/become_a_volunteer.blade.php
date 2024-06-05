@@ -98,11 +98,12 @@
 											</div>
 										</div>
 										<div class="col-md-12">
-											<button name="submit" type="submit" value="Submit" class="btn btn-secondary effect">SEND</button>
+											<button name="submit" type="submit" value="Submit" class="btn btn-secondary effect">RESGISTER
+												
+											</button>
 										</div>
-										<div class=" btn float-right">
-										<a href="{{url('project_story')}}" class="m-r30 m-sm-r10 btn btn-primary">Get Membership <i class="flaticon-right-arrows ps-3"></i></a>
-										</div>
+										
+										
 									</div>
 								</form>
 							</div>	
@@ -112,6 +113,31 @@
 			</div>
 		</section>
 		<!-- volunteer -->
+
+		<!-- Counter -->
+		<div class="counter-wrapper-1 content-inner-3">
+			<div class="container">
+				<div class="counter-inner bg-secondary">
+					<div class="mem-row">
+						<div>
+							<div class="mem-para">
+							<p>Take a Step to Become a TSAP Member and Get Exclusive Benefits</p>
+							</div>
+							<div class="mem-btn">
+								<button>Get Membership</button>
+							</div>
+						</div>
+					</div>
+					<img src="{{asset('images/counter/pattren1.png')}}" class="pattren1 move-2" alt="">
+					<img src="{{asset('images/counter/pattren2.png')}}" class="pattren2 move-2" alt="">
+					<img src="{{asset('images/counter/pattren3.png')}}" class="pattren3 move-2" alt="">
+					<img src="{{asset('images/counter/pattren4.png')}}" class="pattren4 move-2" alt="">
+					<img src="{{asset('images/counter/pattren5.png')}}" class="pattren5 move-2" alt="">
+					<img src="{{asset('images/counter/pattren6.png')}}" class="pattren6 move-2" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- Counter End -->
 		
 		<!-- Our Mission -->
 		<section class="content-inner-2">

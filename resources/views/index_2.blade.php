@@ -539,8 +539,8 @@
 		<section class="content-inner-1 section-wrapper3">
 			<div class="container">
 				<div class="section-head text-center wow fadeInUp" data-wow-delay="0.2s">
-					<h6 class="sub-title">START YOUR FUNDRAISER</h6>
-					<h2 class="title">Start A Fundraiser In Three<br> Simple Steps</h2>
+					<h6 class="sub-title">Step towards TSAP</h6>
+					<h2 class="title">Become a Member In Three<br> Simple Steps</h2>
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -573,8 +573,8 @@
 								</div>
 							</div>
 							<div class="icon-content">
-								<h5 class="title">Share your fundraiser</h5>
-								<p>It’ll take only 2 minutes. Just tell us a few details about you and the ones you are raising funds for.</p>
+								<h5 class="title">Visit our Membership page</h5>
+								<p>It’ll take only 2 minutes. Just tell us a few details about you.</p>
 							</div>
 						</div>
 					</div>
@@ -602,8 +602,8 @@
 								</div>
 							</div>
 							<div class="icon-content">
-								<h5 class="title">Start your fundraiser</h5>
-								<p>All you need to do is share the fundraiser with your friends and family. In no time, support will start pouring in.</p>
+								<h5 class="title">Select Pakages</h5>
+								<p>All you need to do is just select your preferable pakage. There are many packages for your convinience</p>
 							</div>
 						</div>
 					</div>
@@ -623,17 +623,19 @@
 								</div>
 							</div>
 							<div class="icon-content">
-								<h5 class="title">Withdraw Funds</h5>
-								<p>The funds raised can be withdrawn without any hassle directly to your bank account.</p>
+								<h5 class="title">Pay & Get benefits</h5>
+								<p>Unlock exclusive benefits, connect with fellow
+                            Indians, and enjoy unparalleled support and
+                            resources.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="text-center btn-bottom wow fadeInUp" data-wow-delay="0.8s">
-					<a href="{{url('/browse_fundraiser')}}" class="btn btn-primary">Start your fundraiser</a>
+					<a href="{{url('/browse_fundraiser')}}" class="btn btn-primary">Take a step	</a>
 				</div>
 			</div>
-			<img src="{{asset('images/side-images/pic1.png')}}" alt="images" class="img-1">
+			<img src="{{asset('images/side-images/man.png')}}" alt="images" class="img-1">
 			<svg class="img-2" width="345" height="466" viewBox="0 0 345 466" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M262.501 40.6868L271.004 3.93595C271.493 2.87988 273.898 1.96049 275.634 3.16598L311.982 28.408C314.116 29.8902 313.485 33.2002 310.955 33.793L266.104 44.3019C263.933 44.8106 261.985 42.8565 262.501 40.6868Z" fill="var(--secondary)"/>
 				<path d="M260 20.0002C202.667 8.66685 91.4001 7.40018 105 93.0002C122 200 217 215 288 255C359 295 350 340 322 384C294 428 184 500 -28 442" stroke="var(--secondary)" stroke-width="3" stroke-dasharray="10 10"/>
