@@ -41,8 +41,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	
 </head>
-<body id="bg">
-<div id="loading-area" class="loading-page-1">
+<body id="bg1">
+<!-- <div id="loading-area" class="loading-page-1">
 	<div class="loading-inner">
 		<div class="item-wrapper">
 			<img class="item1" src="images/hand1.png" alt="">
@@ -57,14 +57,19 @@
 			<span data-text="L" class="text-load">L</span>
 		</div>
 	</div>
+</div> -->
+<div id="loading-area" class="loading-page-2">
+	<div class="loading-inner">
+		<img src="{{asset('images/lodaer2.gif')}}" alt="">
+	</div>
 </div>
 <div class="page-wraper">
 
 	<!-- Coming Soon Start -->
-	<div class="coming-soon background-luminosity" data-text="CHARITY" style="background-image: url(images/background/bg5.jpg)">
+	<div class="coming-soon background-luminosity" data-text="TSAP" style="background-image: url(images/background/bg20.jpg)">
 		<div class="inner-content">
 			<div class="logo-header logo-light">
-				<a href="index.html"><img src="images/logo-white.png" alt=""></a>
+				<a href="{{url('/')}}"><img src="images/tamil_logo3.png" alt=""></a>
 			</div>
 			<h1 class="dz-head">We Are Coming <span class="text-secondary">Soon !</span></h1>
 			<p>We`ll be here soon with our new awesome site, subscribe to be notified.</p>

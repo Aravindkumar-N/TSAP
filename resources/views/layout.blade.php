@@ -51,11 +51,11 @@
 		<div class="item4"></div>
 	</div>
 </div> -->
-<!-- <div id="loading-area" class="loading-page-2">
+<div id="loading-area" class="loading-page-2">
 	<div class="loading-inner">
 		<img src="{{asset('images/lodaer2.gif')}}" alt="">
 	</div>
-</div> -->
+</div>
 <div class="page-wraper">
 
 	<!-- Header -->

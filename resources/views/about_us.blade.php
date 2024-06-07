@@ -13,7 +13,7 @@
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="{{url('/index')}}">Home</a></li>
+							<li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
 							<li class="breadcrumb-item active" aria-current="page">About Us</li>
 						</ul>
 					</nav>
@@ -35,7 +35,7 @@
 						</div>
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-shield"></i>
 								</a> 
 							</div>
@@ -46,7 +46,7 @@
 						</div>
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-shield"></i>
 								</a> 
 							</div>
@@ -71,19 +71,20 @@
 			<div class="container">
 				<div class="about-bx2">
 					<div class="row g-0">
-						<div class="col-lg-4">
-							<div class="dz-media">
-								<img src="images/about/pic1.jpg" alt="image">
-							</div>
-						</div>
 						<div class="col-lg-8">
-							<div class="dz-info">
+						<div class="dz-info">
 								<h2 class="title m-b30 m-md-b20">Founder & President</h2>
 								<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 								<div class="signature">
 									<img src="images/about/signature.png" alt="image">
 									<p class="text-dark m-t15 mb-0">K. YUSUF MASTHAN</p>
 								</div>
+							</div>
+							
+						</div>
+						<div class="col-lg-4">
+						<div class="dz-media">
+								<img src="images/about/pic1.jpg" alt="image">
 							</div>
 						</div>
 					</div>
@@ -104,7 +105,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-vr-glasses"></i>
 								</a> 
 							</div>
@@ -117,7 +118,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-transformation"></i>
 								</a> 
 							</div>
@@ -130,7 +131,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-doctor-bag"></i>
 								</a> 
 							</div>
@@ -143,7 +144,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="services-details.html" class="icon-cell">
+								<a href="{{url('/coming_soon')}}" class="icon-cell">
 									<i class="flaticon-open-book"></i>
 								</a> 
 							</div>
@@ -238,7 +239,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.1s">
 								<div class="dz-media">
-									<a href="instructor.html"><img src="images/team/team1.jpg" alt=""></a>
+									<a href="{{url('/coming_soon')}}"><img src="images/team/team1.jpg" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -254,7 +255,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 								<div class="dz-media">
-									<a href="instructor.html"><img src="images/team/team2.jpg" alt=""></a>
+									<a href="{{url('/coming_soon')}}"><img src="images/team/team2.jpg" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -270,7 +271,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.3s">
 								<div class="dz-media">
-									<a href="instructor.html"><img src="images/team/team3.jpg" alt=""></a>
+									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -286,7 +287,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="dz-media">
-									<a href="instructor.html"><img src="images/team/team4.jpg" alt=""></a>
+									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -302,7 +303,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="dz-media">
-									<a href="instructor.html"><img src="images/team/team5.jpg" alt=""></a>
+									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>

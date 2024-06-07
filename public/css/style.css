@@ -20575,6 +20575,10 @@ footer .widget_services ul li {
     background-attachment: fixed;
     background-size: cover;
 }
+#bg1 {
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .main-bar-wraper.sticky-no .main-bar {
     position: unset;
@@ -21396,8 +21400,8 @@ footer .widget_services ul li {
 }
 @media only screen and (max-width: 1280px) {
     .section-pattren1 svg[class*="shape-"] {
-        width: 35px;
-        height: 35px;
+        width: 55px;
+        height: 55px;
     }
 }
 
@@ -39003,4 +39007,6 @@ font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
 }
+
+
 /*# sourceMappingURL=style.css.map */
