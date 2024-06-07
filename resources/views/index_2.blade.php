@@ -269,95 +269,86 @@
 
 
 		<div class="grid8">
-			<div class="section-head text-center wow fadeInUp" data-wow-delay="0.2s">
-							<h5 class="sub-title">Services</h5>
-							<h2 class="title">Why TSAP</h2>
-						</div>
-			<div class="first-line">
-				<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/1.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Emergency Support</p>
-					</div>
-					
-				</div>
-				<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Legal Support & Guidance</p>
-					</div>
-					
-				</div>
-				<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/3.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Business Development & Networking</p>
-					</div>
-					
-				</div>
-				<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/4.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Student Guidance</p>
-					</div>
-					
-				</div>
-			</div>
-			<div class="first-line">
-			<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/5.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Art and Culture Development</p>
-					</div>
-					
-				</div>
-			<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/6.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Family and Child care</p>
-					</div>
-					
-				</div>
-			<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/7.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Tamil Culture</p>
-					</div>
-					
-				</div>
-			<div class="first-tile">
-					<div class="gridlogo">
-					<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images">
-					</div>
-					<div class="gridpara">
-					<div class="separator"></div>
-					<p>Emergency Support</p>
-					</div>
-					
-				</div>
-			</div>
-		</div>
+    <div class="section-head text-center wow fadeInUp" data-wow-delay="0.2s">
+        <h5 class="sub-title">Services</h5>
+        <h2 class="title">Why TSAP</h2>
+    </div>
+    <div class="tiles-container">
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/1.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Emergency Support</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Legal Support & Guidance</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/3.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Business Development & Networking</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/4.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Student Guidance</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/5.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Art and Culture Development</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/6.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Family and Child care</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/7.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Tamil Culture</p>
+            </div>
+        </div>
+        <div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Emergency Support</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 		
 		<!-- service -->
 		<!-- <section class="clearfix">
