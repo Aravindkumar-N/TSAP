@@ -656,7 +656,7 @@
 					<a href="{{url('/become_member')}}" class="btn btn-primary">Take a step	</a>
 				</div>
 			</div>
-			<img src="{{asset('images/side-images/man.png')}}" alt="images" class="img-1">
+			<img src="{{asset('images/side-images/bg.png')}}" alt="images" class="img-1">
 			<svg class="img-2" width="345" height="466" viewBox="0 0 345 466" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M262.501 40.6868L271.004 3.93595C271.493 2.87988 273.898 1.96049 275.634 3.16598L311.982 28.408C314.116 29.8902 313.485 33.2002 310.955 33.793L266.104 44.3019C263.933 44.8106 261.985 42.8565 262.501 40.6868Z" fill="var(--secondary)"/>
 				<path d="M260 20.0002C202.667 8.66685 91.4001 7.40018 105 93.0002C122 200 217 215 288 255C359 295 350 340 322 384C294 428 184 500 -28 442" stroke="var(--secondary)" stroke-width="3" stroke-dasharray="10 10"/>
