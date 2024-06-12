@@ -67,7 +67,7 @@
 		
 		
 		<!-- About Us -->
-		<section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url('images/background/bg4.jpg');  background-size: cover; background-repeat: no-repeat;">
+		<section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url('images/background/bg1.jpg');  background-size: cover; background-repeat: no-repeat;">
 			<div class="container">
 				<div class="about-bx2">
 					<div class="row g-0">
@@ -268,7 +268,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide">
+						<!-- <div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.3s">
 								<div class="dz-media">
 									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
@@ -315,7 +315,7 @@
 									<span class="dz-position text-primary">National Intranet Specialist</span>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

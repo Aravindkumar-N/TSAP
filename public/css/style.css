@@ -31928,8 +31928,9 @@ ul a.rsswidget:hover {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-color: var(--rgba-primary-7);
+    height: 100%;            /* change made */
+    
+    /* background-color: var(--rgba-primary-7); */
     border-radius: var(--border-radius-base);
     top: -460px;
     left: 0;
@@ -38638,7 +38639,13 @@ button:hover {
 	padding: 50px;		
 	background: #fff;		
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);		
-	}		
+	}
+    .section_resources_container p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 500;
+    }		
 	.resources_title {		
 	text-align: center;		
 	margin-bottom: 20px;		

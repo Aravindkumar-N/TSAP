@@ -17,14 +17,14 @@
                 (TSAP)
             </h2>
         </div>
-        <div class="text-center wow fadeInUp" data-wow-delay="0.4s">
+        <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.4s">
             <p class="text-white">
                 The commerce wing of TSAP is dedicated to fostering cross-border
                 trade and investment between India and Poland. Our goal is to
                 create a robust economic partnership by providing valuable
                 resources and support to businesses in both regions.
             </p>
-        </div>
+        </div> -->
     </div>
 </section>
 
@@ -95,11 +95,11 @@ Services -->
 <section id="section_resources">
     <div class="section_resources_container">
         <div class="resources_title">
-            <div>
+            <!-- <div>
                 <h2>
                     Commerce Wing of Tamil Sangam Association of Poland (TSAP)
                 </h2>
-            </div>
+            </div> -->
         </div>
         <p>
             The commerce wing of TSAP is dedicated to fostering cross-border
@@ -203,7 +203,7 @@ Services -->
                 </div>
                 <a
                     class="btn res_des_para_button"
-                    onclick="window.open('mailto:Suresh.Nallasivam@TSAP.org')"
+                    onclick="window.open('mailto:info@tamilsangam.pl')"
                     >Contact Us Now</a
                 >
             </div>

@@ -288,10 +288,11 @@
 							<p>TSAP is the first ever Tamil Association started in Poland  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
 							<div class="dz-social-icon style-3">
 								<ul>
-									<li><a target="_blank" class="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
-									<li><a target="_blank" class="fab fa-instagram" href="https://www.instagram.com/"></a></li>
-									<li><a target="_blank" class="fab fa-twitter" href="https://twitter.com/"></a></li>
-									<li><a target="_blank" class="fab fa-youtube" href="https://youtube.com/"></a></li>
+									<li><a target="_blank" class="fab fa-facebook-f" href="https://www.facebook.com/polandtamilsangam/"></a></li>
+									<li><a target="_blank" class="fab fa-instagram" href="https://www.instagram.com/tamilsangam.pl/"></a></li>
+									<!-- <li><a target="_blank" class="fab fa-twitter" href="https://twitter.com/"></a></li> -->
+									<li><a target="_blank" class="fab fa-youtube" href="https://www.youtube.com/@polandtamilsangam8133/"></a></li>
+									
 								</ul>
 							</div>
 						</div>

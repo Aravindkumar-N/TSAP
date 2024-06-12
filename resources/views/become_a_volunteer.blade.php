@@ -93,7 +93,7 @@
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
 												<label class="form-check-label" for="flexCheckDefault">
-													Accept terms & conditions
+													<a href="{{url('terms_condition')}}">Accept terms & conditions</a>
 												</label>
 											</div>
 										</div>
@@ -140,7 +140,7 @@
 		<!-- Counter End -->
 		
 		<!-- Our Mission -->
-		<section class="content-inner-2">
+		<!-- <section class="content-inner-2">
 			<div class="container">
 				<div class="row about-bx3 align-items-center">
 					<div class="col-lg-5">
@@ -173,10 +173,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		
 		<!-- Counter -->
-		<div class="counter-wrapper-1">
+		<!-- <div class="counter-wrapper-1">
 			<div class="container">
 				<div class="counter-inner bg-secondary">
 					<div class="row">
@@ -213,11 +213,11 @@
 					<img src="images/counter/pattren6.png" class="pattren6 move-2" alt="">
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- Counter End -->
 		
 		<!-- categories -->
-		<section class="content-inner-2">
+		<!-- <section class="content-inner-2">
 			<div class="container">
 				<div class="section-head text-center">
 					<h5 class="sub-title">CATEGORIES</h5>
@@ -271,7 +271,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- categories -->
 		
 		<!-- Call Action -->

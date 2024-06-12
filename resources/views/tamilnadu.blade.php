@@ -98,12 +98,12 @@
                                 one of the Great Living Chola Temples, and since
                                 the olden days, the Airavatesvara Temple has
                                 attracted devotees and travellers alike.
-                                <a
+                                <!-- <a
                                     href="javascript:void(0);"
                                     data-bs-toggle="modal"
                                     data-bs-target="#read"
                                     >Read More</a
-                                >
+                                > -->
                             </p>
                         </div>
                     </div>
@@ -132,12 +132,12 @@
                                 years old in 2010.The temple stands amidst
                                 fortified walls that were probably added in the
                                 16th century.
-                                <a
+                                <!-- <a
                                     href="javascript:void(0);"
                                     data-bs-toggle="modal"
                                     data-bs-target="#read"
                                     >Read More</a
-                                >
+                                > -->
                             </p>
                         </div>
                     </div>
@@ -166,12 +166,12 @@
                                 era temple is similar in design, and has a
                                 similar name, as the older 11th century,
                                 Brihadeeswarar Temple about 70 kilometres (43
-                                min) to the southwest in Thanjavur.<a
+                                <!-- min) to the southwest in Thanjavur.<a
                                     href="javascript:void(0);"
                                     data-bs-toggle="modal"
                                     data-bs-target="#read"
                                     >Read More</a
-                                >
+                                > -->
                             </p>
                         </div>
                     </div>
@@ -202,24 +202,24 @@
                                 Mahabalipuram, characterized by the softness and
                                 supple mass of their modelling, spread widely
                                 (Cambodia, Annam, Java).
-                                <a
+                                <!-- <a
                                     href="javascript:void(0);"
                                     data-bs-toggle="modal"
                                     data-bs-target="#read"
                                     >Read More</a
-                                >
+                                > -->
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <a
+        <!-- <a
             href="l"
             class="btn btn-primary m-r15 m-b15 wow fadeInUp"
             data-wow-delay="0.2s"
             >Explore more</a
-        >
+        > -->
     </div>
 </section>
 
@@ -252,7 +252,7 @@
                         </p>
                     </div>
 
-                    <a href="project-story.html" class="btn btn-primary"
+                    <a href="{{url('/commercial')}}" class="btn btn-primary"
                         >Invest Now</a
                     >
                 </div>

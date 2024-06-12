@@ -90,7 +90,7 @@
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">EDUCATION</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">New vaccine for cattle calf loss learned </a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">25% offer in language Courses</a></h5>
 										
 										
 									</div>
@@ -103,9 +103,9 @@
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
-											<li><a href="javascript:void(0);">TECHNOLOGY</a></li>
+											<li><a href="javascript:void(0);">Medicine</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">He Created the Web. Now He’s Out to Remake </a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">Free sample for Ayurvedic medicine </a></h5>
 										<!-- <div class="progress-bx style-1">
 											<div class="progress">
 												<div class="progress-bar progress-bar-secondary progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width:68%"></div>
@@ -150,9 +150,9 @@
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
-											<li><a href="javascript:void(0);">HEALTH</a></li>
+											<li><a href="javascript:void(0);">Cloths</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">4 Things parents learned for they jids in 2020 </a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">50% sales in cloths </a></h5>
 										
 									</div>
 								</div>
@@ -164,9 +164,9 @@
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
-											<li><a href="javascript:void(0);">HEALTH</a></li>
+											<li><a href="javascript:void(0);">Resturant</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">Partnering to create a community</a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">Get 20% offer in Resturants</a></h5>
 										
 									</div>
 								</div>
@@ -178,9 +178,9 @@
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
-											<li><a href="javascript:void(0);">HEALTH</a></li>
+											<li><a href="javascript:void(0);">Indian Spices</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">Primary School Build for Children</a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">25% offer in Indian Spices</a></h5>
 										
 									</div>
 								</div>
@@ -192,9 +192,9 @@
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
-											<li><a href="javascript:void(0);">HEALTH</a></li>
+											<li><a href="javascript:void(0);">Indian Spices</a></li>
 										</ul>
-										<h5 class="dz-title"><a href="fundraiser-detail.html">Best & Less published their supplier lists</a></h5>
+										<h5 class="dz-title"><a href="fundraiser-detail.html">By one get one Indian Spices</a></h5>
 										
 									</div>
 								</div>

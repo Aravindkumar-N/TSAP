@@ -158,9 +158,9 @@
 				
 				<div class="bottom-wrapper">
 					<ul class="social-list">
-						<li><a href="https://www.facebook.com/">Facebook</a></li>
-						<li><a href="https://twitter.com/">Twitter</a></li>
-						<li><a href="https://www.instagram.com/">Instagram</a></li>
+						<li><a href="https://www.facebook.com/polandtamilsangam/">Facebook</a></li>
+						<li><a href="https://www.youtube.com/@polandtamilsangam8133">Youtube</a></li>
+						<li><a href="https://www.instagram.com/tamilsangam.pl/">Instagram</a></li>
 					</ul>
 					<div class="btn-wrapper">
 						<div class="main-btn main-btn-prev"><i class="fa fa-angle-left"></i></div>
@@ -807,7 +807,7 @@
 		<!-- Online Courses End -->
 		
 		<!-- Testimonials -->
-		<section class="content-inner testimonial-wrapper2" style="background-image:url('images/background/bg10.jpg'); background-position: center;">
+		<!-- <section class="content-inner testimonial-wrapper2" style="background-image:url('images/background/bg10.jpg'); background-position: center;">
 			<div class="container">
 				<div class="section-head text-center wow fadeInUp" data-wow-delay="0.8s">
 					<h5 class="sub-title">What people are saying</h5>
@@ -892,12 +892,12 @@
 				<a href="{{url('/browse_fundraiser')}}" class="btn btn-secondary m-r15 m-b15">Start A Fundraiser For Free</a>
 				<a href="{{url('/contact')}}" class="btn btn-dark m-b15">Talk To Us</a>
 			</div>
-		</section>
+		</section> -->
 		<!-- Testimonials End -->
 		
 
 
-<div class="numbers">
+<!-- <div class="numbers">
 <div class="heading-map">
         <h3>COOL FACTS</h3>
     </div>
@@ -946,7 +946,7 @@
 	
 </div>
 
-
+ -->
 
 
 
@@ -1127,9 +1127,9 @@
 					<div class="col-lg-3 col-md-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="content-bx style-1 bg-dark text-center">
 							<div class="inner-content">
-								<h2 class="title text-white m-b15 display-3 font-weight-700"><span class="counter">33,986</span><span>+</span></h2>
+								<h2 class="title text-white m-b15 display-3 font-weight-700"><span class="counter">4258</span><span>+</span></h2>
 								<p class="m-b30 text-white">Our campaign is powered by contributions from supporters like you</p>
-								<a class="btn btn-primary" href="{{url('/')}}">Supporter</a>
+								<a class="btn btn-primary" href="{{url('/')}}">Subscribers</a>
 							</div>
 						</div>
 					</div>
