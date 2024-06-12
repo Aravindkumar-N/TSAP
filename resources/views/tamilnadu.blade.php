@@ -3,7 +3,7 @@
 <div class="tamil">
     <video autoplay muted loop plays-inline class="background-video">
         <source
-            src="{{ asset('images/background/none.mp4') }}"
+            src="{{ asset('images/background/intro.mp4') }}"
             type="video/mp4"
         />
         Your browser does not support the video tag.

@@ -21125,7 +21125,7 @@ footer .widget_services ul li {
     right: 0;
     bottom: 0;
     z-index: -1;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     width: 23vw;
 }
 .section-wrapper4 .counter-text-wrapper {

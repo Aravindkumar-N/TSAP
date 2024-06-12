@@ -240,7 +240,7 @@
 									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it.</p>
 									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 								</div>
-								<div class="col-xl-5">
+								<!-- <div class="col-xl-5">
 									<div class="counter-text-wrapper">
 										<div class="counter-text m-b30">
 											<h4>Donation Raised</h4>
@@ -255,14 +255,14 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<a href="{{url('/about_us')}}" class="btn btn-primary">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<img class="img-1" src="{{asset('images/side-images/pic2.png')}}" alt="images">
+			<img class="img-1" src="{{asset('images/side-images/help.png')}}" alt="images">
 		</section>
 		<!-- Donate End-->
 
