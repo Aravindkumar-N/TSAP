@@ -39020,5 +39020,20 @@ font-size: 40px;
     font-size: 1rem;
 }
 
-
+.package-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .package-option {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .active {
+    /* background-color: #007BFF; */
+    color: white;
+    border-color: #007BFF;
+  } 
 /*# sourceMappingURL=style.css.map */

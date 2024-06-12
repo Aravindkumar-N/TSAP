@@ -133,7 +133,7 @@
 									<li><a href="{{url('/blog')}}">Blog</a></li>
 									<li><a href="{{url('/faq')}}">Faq</a></li>
 									
-									<li class="sub-menu-down"><a href="javascript:void(0);">Projects<i class="fa fa-angle-right"></i></a>
+									<!-- <li class="sub-menu-down"><a href="javascript:void(0);">Projects<i class="fa fa-angle-right"></i></a>
 								<ul class="sub-menu">
 									<li><a href="{{url('/project')}}">Project</a> </li>
 									<li><a href="{{url('/project_categories')}}">Project Categories</a></li>
@@ -150,8 +150,8 @@
 								</ul>
 
 								
-							</li>
-							<li class="sub-menu-down"><a href="javascript:void(0);">Others<i class="fa fa-angle-right"></i></a> 
+							</li> -->
+							<!-- <li class="sub-menu-down"><a href="javascript:void(0);">Others<i class="fa fa-angle-right"></i></a> 
 								<ul class="sub-menu">
 								<li><a href="{{url('/certificates')}}">Certificates</a></li>
 									<li><a href="{{url('/ask_qn')}}">Ask A Question</a></li>
@@ -163,7 +163,7 @@
 									<li><a href="{{url('/maintenance')}}">Under Maintenance</a></li>
 									<li><a href="{{url('/error')}}">Error 404</a></li>
 								</ul>
-							</li>
+							</li> -->
 							
 									
 								</ul>
@@ -487,6 +487,136 @@
 			</div>
 		</div>
 	</div>
+<!-- package selection -->
+
+
+
+
+<div class="modal fade modal-wrapper" id="modalpackage" tabindex="-1" role="dialog" aria-labelledby="modalDonate" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Choose a donation amount</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="flaticon-close"></i></button>
+				</div>
+				<div class="modal-body">
+					<form action="index.html">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="tag-donate style-1">
+									
+								<div class="package-options">
+									<div class="package-option active" data-target="individual">Individual</div>
+									<div class="package-option" data-target="student">Student</div>
+									<div class="package-option" data-target="family">Family</div>
+								</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Other Amount</label>
+									<div class="input-group">
+										<input type="number" class="form-control"  placeholder="Other Amount">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Name & Surname</label>
+									<div class="input-group">
+										<input name="dzName" required="" type="text" class="form-control" placeholder="Jakob Bothman">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Email address</label>
+									<div class="input-group">
+										<input name="dzEmail" required type="text" class="form-control" placeholder="info@mail.com">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Phone Number</label>
+									<div class="input-group">
+										<input type="number" class="form-control" placeholder="Phone Number">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Address</label>
+									<div class="input-group">
+										<input required type="text" class="form-control" placeholder="Address">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label class="form-label">Select ID Type</label>
+									<div class="input-group">
+										<select id="idTypeSelect" class="option" onchange="updatePlaceholder()">
+											<option value="PESEL">PESEL</option>
+											<option value="NIP">NIP</option>
+										</select>
+										<input type="text" id="idInput" class="form-control" placeholder="Enter PESEL" />
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group mb-0 text-center">
+									<button name="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Proceed To Pay</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- <div class="modal fade modal-wrapper" id="modalpackage" tabindex="-1" role="dialog" aria-labelledby="modalDonate" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-header">
+			<h5 class="modal-title">Choose your package</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="flaticon-close"></i></button>
+		</div>
+		<div class="package-categories">
+		<div class="package-options">
+    		<div class="package-option active" data-target="individual">Individual</div>
+    		<div class="package-option" data-target="student">Student</div>
+    		<div class="package-option" data-target="family">Family</div>
+ 		 </div>
+
+		</div>
+		<div class="col-lg-12">
+		<div class="form-container active" id="individual">
+    <form>
+	<div class="form-group">
+									<label class="form-label">Other Amount</label>
+									<div class="input-group">
+										<input type="text" class="form-control"  placeholder="Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="form-label">Other Amount</label>
+									<div class="input-group">
+										<input type="email" class="form-control"  placeholder="Email">
+									</div>
+								</div>
+      
+      
+								<div class="col-lg-12">
+								<div class="form-group mb-0 text-center">
+									<button name="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Proceed To Pay</button>
+								</div>
+							</div>
+    </form>
+  </div>
+								
+							</div>
+	</div>
+</div> -->
 	
 	<!-- Authentication Modal -->
 	<div class="modal fade modal-wrapper auth-modal" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin" aria-hidden="true">

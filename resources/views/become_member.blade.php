@@ -20,6 +20,7 @@
                             thriving community dedicated to making your life in
                             Poland enriching and hassle-free.
                         </p>
+                        <a href="#modalpackage" class="btn btn-secondary btnhover2 m-r15">Get membership <i class="flaticon-right-arrows ms-3 scale1"></i></a>
 
                         <div class="swiper banner-clients-swiper">
                             <div class="swiper-wrapper"></div>
@@ -538,7 +539,11 @@
 					<h6 class="sub-title">Few Steps more</h6>
 					<h2 class="title">Becoming a member is easy!</h2>
 					<p>Sign up on our website or visit our office in Warsaw central to enjoy all these amazing benefits. Join our community today and start making the most of what we offer.</p>
-					<a href="contact-us.html" class="btn btn-primary">Contact</a>
+                    <a class="btn btn-primary btnhover1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modalpackage">
+								<span>Get membership</span>
+								<i class="flaticon-heart text-secondary ms-3"></i>
+							</a>
+					
 				</div>
 			</div>
 		</section>
@@ -613,5 +618,59 @@
         }
     </script>
 
+
+<div class="package-options">
+    <div class="package-option active" data-target="individual">Individual</div>
+    <div class="package-option" data-target="student">Student</div>
+    <div class="package-option" data-target="family">Family</div>
+  </div>
+
+  <div class="form-container active" id="individual">
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="form-container" id="student">
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Student ID" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="form-container" id="family">
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Family Member Names" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script>
+    document.querySelectorAll('.package-option').forEach(option => {
+      option.addEventListener('click', function() {
+        // Remove active class from all options
+        document.querySelectorAll('.package-option').forEach(option => {
+          option.classList.remove('active');
+        });
+
+        // Add active class to the clicked option
+        this.classList.add('active');
+
+        // Hide all forms
+        document.querySelectorAll('.form-container').forEach(form => {
+          form.classList.remove('active');
+        });
+
+        // Show the form corresponding to the clicked option
+        const target = this.getAttribute('data-target');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  </script>
     @endsection
 </div>
