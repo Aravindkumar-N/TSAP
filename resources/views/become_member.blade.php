@@ -20,7 +20,8 @@
                             thriving community dedicated to making your life in
                             Poland enriching and hassle-free.
                         </p>
-                        <a href="#modalpackage" class="btn btn-secondary btnhover2 m-r15">Get membership <i class="flaticon-right-arrows ms-3 scale1"></i></a>
+                        <a href="#modalpackage" class="btn btn-secondary btnhover2 m-r15">Get membership
+                            <i class="flaticon-right-arrows ms-3 scale1"></i></a>
 
                         <div class="swiper banner-clients-swiper">
                             <div class="swiper-wrapper"></div>
@@ -29,11 +30,7 @@
                 </div>
                 <div class="col-lg-4 col-md-5">
                     <div class="banner-media">
-                        <img
-                            src="{{asset('images/pic2.png') }}"
-                            class="main-img"
-                            alt=""
-                        />
+                        <img src="{{asset('images/pic2.png') }}" class="main-img" alt="" />
                         <!-- <div class="dz-media">
                             <img
                                 src="{{asset('images/shape.png')}}"
@@ -45,15 +42,8 @@
                 </div>
             </div>
             <div class="dz-shape">
-                <svg
-                    class="shape-1 move-1"
-                    viewBox="0 0 95 95"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="81"
-                    height="63"
-                    fill="var(--primary)"
-                    xmlns:v="https://vecta.io/nano"
-                >
+                <svg class="shape-1 move-1" viewBox="0 0 95 95" xmlns="http://www.w3.org/2000/svg" width="81"
+                    height="63" fill="var(--primary)" xmlns:v="https://vecta.io/nano">
                     <circle cx="16.695" cy="3.497" r="3.497" />
                     <circle cx="12.296" cy="21.975" r="3.497" />
                     <circle cx="7.896" cy="40.453" r="3.497" />
@@ -71,15 +61,8 @@
                     <circle cx="68.61" cy="40.453" r="3.497" />
                     <circle cx="64.211" cy="58.931" r="3.497" />
                 </svg>
-                <svg
-                    class="shape-2 move-2"
-                    viewBox="0 0 57 43"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="57"
-                    height="43"
-                    fill="var(--secondary)"
-                    xmlns:v="https://vecta.io/nano"
-                >
+                <svg class="shape-2 move-2" viewBox="0 0 57 43" xmlns="http://www.w3.org/2000/svg" width="57"
+                    height="43" fill="var(--secondary)" xmlns:v="https://vecta.io/nano">
                     <circle cx="11.261" cy="2.559" r="2.559" />
                     <ellipse cx="8.19" cy="15.1" rx="2.559" ry="2.303" />
                     <circle cx="5.375" cy="27.897" r="2.303" />
@@ -97,15 +80,8 @@
                     <circle cx="47.349" cy="27.897" r="2.303" />
                     <circle cx="44.533" cy="40.438" r="2.559" />
                 </svg>
-                <svg
-                    class="shape-3 move-2"
-                    viewBox="0 0 95 95"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="81"
-                    height="63"
-                    fill="var(--primary)"
-                    xmlns:v="https://vecta.io/nano"
-                >
+                <svg class="shape-3 move-2" viewBox="0 0 95 95" xmlns="http://www.w3.org/2000/svg" width="81"
+                    height="63" fill="var(--primary)" xmlns:v="https://vecta.io/nano">
                     <circle cx="16.695" cy="3.497" r="3.497" />
                     <circle cx="12.296" cy="21.975" r="3.497" />
                     <circle cx="7.896" cy="40.453" r="3.497" />
@@ -136,23 +112,13 @@
                         <br />
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic1.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic1.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Discounts on Indian Spices and
-                                        Groceries</a
-                                    >
+                                    <a href="#membership">Discounts on Indian Spices and
+                                        Groceries</a>
                                 </h5>
                                 <p>
                                     Enjoy exclusive savings on authentic Indian
@@ -164,23 +130,13 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic2.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic2.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Exclusive Access to Tamil Sangam
-                                        Events</a
-                                    >
+                                    <a href="#membership">Exclusive Access to Tamil Sangam
+                                        Events</a>
                                 </h5>
                                 <p>
                                     Get VIP access to vibrant cultural events
@@ -192,22 +148,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic3.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic3.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Access to Tamil Library</a
-                                    >
+                                    <a href="#membership">Access to Tamil Library</a>
                                 </h5>
                                 <p>
                                     Dive into a rich collection of Tamil
@@ -220,22 +166,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic4.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic4.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Legal and Immigration Assistance</a
-                                    >
+                                    <a href="#membership">Legal and Immigration Assistance</a>
                                 </h5>
                                 <p>
                                     Navigate the complexities of legal and
@@ -247,22 +183,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic5.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic5.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Health and Wellness Support</a
-                                    >
+                                    <a href="#membership">Health and Wellness Support</a>
                                 </h5>
                                 <p>
                                     Stay healthy and well with access to health
@@ -275,22 +201,12 @@
 
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic6.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic6.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Educational Support</a
-                                    >
+                                    <a href="#membership">Educational Support</a>
                                 </h5>
                                 <p>
                                     Unlock educational opportunities with
@@ -302,22 +218,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic7.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic7.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Networking Opportunities</a
-                                    >
+                                    <a href="#membership">Networking Opportunities</a>
                                 </h5>
                                 <p>
                                     Expand your professional network with
@@ -329,22 +235,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic8.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic8.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Travel Assistance</a
-                                    >
+                                    <a href="#membership">Travel Assistance</a>
                                 </h5>
                                 <p>
                                     Travel with peace of mind knowing you have
@@ -368,22 +264,12 @@
 							</div> -->
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"
-                                    ><img
-                                        src="images/blog/blog-grid/pic10.jpg"
-                                        alt=""
-                                /></a>
-                                <a
-                                    href="#membership"
-                                    class="btn btn-secondary"
-                                    >Get</a
-                                >
+                                <a href="#membership"><img src="images/blog/blog-grid/pic10.jpg" alt="" /></a>
+                                <a href="#membership" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership"
-                                        >Special Offers from Partner Brands</a
-                                    >
+                                    <a href="#membership">Special Offers from Partner Brands</a>
                                 </h5>
                                 <p>
                                     ake advantage of exclusive deals and
@@ -403,52 +289,34 @@
                             </div>
                             <ul>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Discounts on Indian Spices and
-                                        Groceries</a
-                                    >
+                                    <a href="javascript:void(0);">Discounts on Indian Spices and
+                                        Groceries</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Exclusive Access to Tamil Sangam
-                                        Eventss</a
-                                    >
+                                    <a href="javascript:void(0);">Exclusive Access to Tamil Sangam
+                                        Eventss</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Access to Tamil Library</a
-                                    >
+                                    <a href="javascript:void(0);">Access to Tamil Library</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Legal and Immigration Assistance</a
-                                    >
+                                    <a href="javascript:void(0);">Legal and Immigration Assistance</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Health and Wellness Support</a
-                                    >
+                                    <a href="javascript:void(0);">Health and Wellness Support</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Educational Support</a
-                                    >
+                                    <a href="javascript:void(0);">Educational Support</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Networking Opportunities</a
-                                    >
+                                    <a href="javascript:void(0);">Networking Opportunities</a>
                                 </li>
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Travel Assistance</a
-                                    >
+                                    <a href="javascript:void(0);">Travel Assistance</a>
                                 </li>
                                 <!-- <li class="cat-item"><a href="javascript:void(0);">Community Support Services</a></li>   -->
                                 <li class="cat-item">
-                                    <a href="javascript:void(0);"
-                                        >Special Offers from Partner Brands</a
-                                    >
+                                    <a href="javascript:void(0);">Special Offers from Partner Brands</a>
                                 </li>
                             </ul>
                         </div>
@@ -456,14 +324,15 @@
                 </div>
             </div>
         </div>
-       
-        <div class="toggle1" id="membership">
 
-                    <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onclick="togglePricing()" />
-            <label class="form-check-label" id="toggleText" for="flexSwitchCheckChecked">Switch to Yearly Pricing</label>
+        <div class="toggle1" id="membership">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                    onclick="togglePricing()" />
+                <label class="form-check-label" id="toggleText" for="flexSwitchCheckChecked">Switch to Yearly
+                    Pricing</label>
             </div>
-                        <!-- <div class="toggle">
+            <!-- <div class="toggle">
             
                 <label>
                     <input
@@ -493,11 +362,7 @@
                         </div>
                     </div>
                 </div>
-                <div
-                    id="yearlyPricing"
-                    class="pricing-container"
-                    style="display: none"
-                >
+                <div id="yearlyPricing" class="pricing-container" style="display: none">
                     <div class="packages">
                         <div class="package" id="monthly">
                             <h2>Family</h2>
@@ -526,40 +391,258 @@
             </div>
             <div>
                 <p>
-                   * All members will receive the above-mentioned benefits from
-                    TSAP for who are yearly member or paid 3 months continuously, whether they choose a
-                    monthly or yearly subscription.Save money by choosing our
-                    yearly plan!
+                *All above-mentioned benefits are available to active members. Active members are those who have paid for a yearly subscription or have paid continuously for at least 3 months on a monthly subscription. Save money by choosing our yearly plan!
                 </p>
             </div>
         </div>
         <section class="content-inner-2">
-			<div class="container">
-				<div class="section-head text-center mb-0">
-					<h6 class="sub-title">Few Steps more</h6>
-					<h2 class="title">Becoming a member is easy!</h2>
-					<p>Sign up on our website or visit our office in Warsaw central to enjoy all these amazing benefits. Join our community today and start making the most of what we offer.</p>
-                    <a class="btn btn-primary btnhover1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modalpackage">
-								<span>Get membership</span>
-								<i class="flaticon-heart text-secondary ms-3"></i>
-							</a>
-					
-				</div>
-			</div>
-		</section>
+            <div class="container">
+                <div class="section-head text-center mb-0">
+                    <h6 class="sub-title">Few Steps more</h6>
+                    <h2 class="title">Becoming a member is easy!</h2>
+                    <p>
+                        Sign up on our website or visit our office in Warsaw
+                        central to enjoy all these amazing benefits. Join our
+                        community today and start making the most of what we
+                        offer.
+                    </p>
+                    <a class="btn btn-primary btnhover1" href="javascript:void(0);" data-bs-toggle="modal"
+                        data-bs-target="#modalpackage">
+                        <span>Get membership</span>
+                        <i class="flaticon-heart text-secondary ms-3"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </section>
 
+    <section class="gradient-white" style="
+            background-image: url('images/background/bg1.jpg');
+            background-position: center;
+        ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-md-9 col-sm-12">
+                    <div class="form-wrapper style-3">
+                        <div class="contact-area">
+                            <div class="package-options">
+                                <div class="package-option active" data-target="individual">
+                                    Individual
+                                </div>
+                                <div class="package-option" data-target="student">
+                                    Student
+                                </div>
+                                <div class="package-option" data-target="family">
+                                    Family
+                                </div>
+                            </div>
+                            <div class="form-container active" id="individual">
+                                <form>
+                                    <div class="row sp15">
+                                        <div class="col-md-12">
+                                            <label class="form-label">Full Name</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="Marchelo Queque" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <input name="email" required type="text" class="form-control"
+                                                    placeholder="marchelo@gmail.com" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Address</label>
+                                            <div class="input-group">
+                                                <input name="address" required type="text" class="form-control"
+                                                    placeholder="Warsaw" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                <label class="form-label">Packages</label>
+                <div class="input-group">
+                    <select required class="form-control" aria-label="Package">
+                        <option value="" disabled selected>Choose your package</option>
+                        <option value="monthly">Monthly Package</option>
+                        <option value="yearly">Yearly Package</option>
+                    </select>
+                </div>
+            </div>
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-container " id="student">
+                                <form>
+                                    <div class="row sp15">
+                                        <div class="col-md-12">
+                                            <label class="form-label">Full Name</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="Marchelo Queque" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Full Name</label>
+                                            <div class="input-group">
+                                                <input name="email" required type="text" class="form-control"
+                                                    placeholder="marchelo@gmail.com" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Student Id</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="PSH243971" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Institute name</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="University of Poland" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Address</label>
+                                            <div class="input-group">
+                                                <input name="address" required type="text" class="form-control"
+                                                    placeholder="Warsaw" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                <label class="form-label">Packages</label>
+                <div class="input-group">
+                    <select required class="form-control" aria-label="Package">
+                        <option value="" disabled selected>Choose your package</option>
+                        <option value="monthly">Monthly Package</option>
+                        <option value="yearly">Yearly Package</option>
+                    </select>
+                </div>
+            </div>
+
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-container " id="family">
+                                <form>
+                                    <div class="row sp15">
+                                        <div class="col-md-12">
+                                            <label class="form-label">Full Name</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="Marchelo Queque" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <input name="email" required type="text" class="form-control"
+                                                    placeholder="marchelo@gmail.com" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Spouse Name</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="Hermione Granger" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Childern</label>
+                                            <div class="input-group">
+                                                <input name="text" required type="text" class="form-control"
+                                                    placeholder="2 (max)" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label">Address</label>
+                                            <div class="input-group">
+                                                <input name="address" required type="text" class="form-control"
+                                                    placeholder="Warsaw" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                <label class="form-label">Packages</label>
+                <div class="input-group">
+                    <select required class="form-control" aria-label="Package">
+                        <option value="" disabled selected>Choose your package</option>
+                        <option value="monthly">Monthly Package</option>
+                        <option value="yearly">Yearly Package</option>
+                    </select>
+                </div>
+            </div>
+
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                            
+
+                            <!-- <form class="dz-form dzForm contact-bx form-container active" method="POST" action="script/contact_smtp.php">
+									
+                               
+									
+									<div class="row sp15">
+										<div class="col-md-12">
+											<label class="form-label">Full Name</label>
+											<div class="input-group">
+												<input name="dzName" required type="text" class="form-control" placeholder="Marchelo Queque">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<label class="form-label">Email address</label>
+											<div class="input-group">
+												<input name="dzEmail" required type="text" class="form-control" placeholder="marseloque@mail.com">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<label class="form-label">Phone Number</label>
+											<div class="input-group">
+												<input name="dzPhoneNumber" required type="text" class="form-control" placeholder="987 654 3210">
+											</div>
+										</div>
+										
+										<div class="col-md-12">
+											<label class="form-label">City</label>
+											<div class="input-group">
+												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Warsaw">
+											</div>
+										</div>
+										<div class="col-md-12">
+											<label class="form-label">Country</label>
+											<div class="input-group">
+												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Poland">
+											</div>
+										</div>
+										
+										
+											<button name="submit" type="submit" value="Submit" class="btn btn-secondary effect">Submit
+												
+											</button>
+										</div>
+										
+										
+									</div>
+								</form> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- volunteer -->
     <!-- Call Action -->
     <div class="call-action style-1 content-inner-1">
         <div class="container">
-            <div
-                class="inner-action overlay-primary-dark"
-                style="
+            <div class="inner-action overlay-primary-dark" style="
                     background-image: url('images/background/bg1.jpg');
                     background-size: cover;
                     background-repeat: no-repeat;
-                "
-            >
+                ">
                 <div class="row inner-content justify-content-center">
                     <div class="col-xl-6 col-lg-9">
                         <div class="section-head text-center">
@@ -567,27 +650,14 @@
                                 Don’t miss our updates
                             </h2>
                         </div>
-                        <form
-                            class="dzSubscribe"
-                            action="script/mailchamp.php"
-                            method="post"
-                        >
+                        <form class="dzSubscribe" action="script/mailchamp.php" method="post">
                             <div class="dzSubscribeMsg text-white"></div>
                             <div class="input-group">
-                                <input
-                                    name="dzEmail"
-                                    required="required"
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Enter your email address..."
-                                />
+                                <input name="dzEmail" required="required" type="email" class="form-control"
+                                    placeholder="Enter your email address..." />
                                 <div class="input-group-addon">
-                                    <button
-                                        name="submit"
-                                        value="Submit"
-                                        type="submit"
-                                        class="btn btn-secondary btn-rounded-lg"
-                                    >
+                                    <button name="submit" value="Submit" type="submit"
+                                        class="btn btn-secondary btn-rounded-lg">
                                         <span>SUBSCRIBE</span>
                                         <i class="fa-solid fa-paper-plane"></i>
                                     </button>
@@ -618,59 +688,61 @@
         }
     </script>
 
+    <div class="package-options">
+        <div class="package-option active" data-target="individual">
+            Individual
+        </div>
+        <div class="package-option" data-target="student">Student</div>
+        <div class="package-option" data-target="family">Family</div>
+    </div>
 
-<div class="package-options">
-    <div class="package-option active" data-target="individual">Individual</div>
-    <div class="package-option" data-target="student">Student</div>
-    <div class="package-option" data-target="family">Family</div>
-  </div>
+    <div class="form-container active" id="individual">
+        <form>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
-  <div class="form-container active" id="individual">
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+    <div class="form-container" id="student">
+        <form>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Student ID" required />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
-  <div class="form-container" id="student">
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <input type="text" placeholder="Student ID" required>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+    <div class="form-container" id="family">
+        <form>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Family Member Names" required />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script>
+        //     document.querySelectorAll('.package-option').forEach(option => {
+        //       option.addEventListener('click', function() {
+        //         // Remove active class from all options
+        //         document.querySelectorAll('.package-option').forEach(option => {
+        //           option.classList.remove('active');
+        //         });
 
-  <div class="form-container" id="family">
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <input type="text" placeholder="Family Member Names" required>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-  <script>
-    document.querySelectorAll('.package-option').forEach(option => {
-      option.addEventListener('click', function() {
-        // Remove active class from all options
-        document.querySelectorAll('.package-option').forEach(option => {
-          option.classList.remove('active');
-        });
+        //         // Add active class to the clicked option
+        //         this.classList.add('active');
 
-        // Add active class to the clicked option
-        this.classList.add('active');
+        //         // Hide all forms
+        //         document.querySelectorAll('.form-container').forEach(form => {
+        //           form.classList.remove('active');
+        //         });
 
-        // Hide all forms
-        document.querySelectorAll('.form-container').forEach(form => {
-          form.classList.remove('active');
-        });
-
-        // Show the form corresponding to the clicked option
-        const target = this.getAttribute('data-target');
-        document.getElementById(target).classList.add('active');
-      });
-    });
-  </script>
+        //         // Show the form corresponding to the clicked option
+        //         const target = this.getAttribute('data-target');
+        //         document.getElementById(target).classList.add('active');
+        //       });
+        //     });
+        //
+    </script>
     @endsection
 </div>

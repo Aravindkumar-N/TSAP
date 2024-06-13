@@ -18319,6 +18319,14 @@ section {
 .header-nav {
     padding: 0;
 }
+
+@media only screen and (max-width: 1480px){
+    .header-nav{
+        
+    }
+}
+
+
 @media only screen and (max-width: 991px) {
     .header-nav {
         overflow-y: scroll;
@@ -19139,18 +19147,20 @@ section {
         color: var(--primary);
     }
 }
-@media only screen and (min-width: 991px) and (max-width: 1280px) {
+@media only screen and (min-width: 991px) and (max-width: 1480px) {
     .site-header.style-2 .header-nav .nav {
-        margin-left: 50px;
+        margin-left: 10px;
     }
-    .site-header.style-2 .header-nav .nav > li > a {
-        padding: 36px 15px;
+    .site-header.style-2 .header-nav .nav > li > a {              /* change made*/
+        padding: 36px 8px;
+        font-size: 12px;
+
     }
 }
 
 @media only screen and (max-width: 1480px) {
     .site-header.style-2 .extra-nav .nav-link-list {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -38950,7 +38960,21 @@ font-size: 40px;
     } */
 
 }
-
+@media (min-width: 1500px) {
+    .first-tile {
+        width: 18%; /* Adjust for smaller screens */
+        height: 350px;
+    }
+    .first-tile img {
+        margin-bottom: 20px;
+    }
+    .first-tile:hover {
+        background-color: #00a65ad6;
+        color: white;
+        margin:10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 1.5); /* Enhanced shadow effect on hover */
+    }
+}
 @media (max-width: 992px) {
     .first-tile {
         width: 25%; /* Adjust for tablets */
@@ -39033,7 +39057,49 @@ font-size: 40px;
   }
   .active {
     /* background-color: #007BFF; */
-    color: white;
+    color: green;
     border-color: #007BFF;
   } 
-/*# sourceMappingURL=style.css.map */
+
+
+  .swiper-slidere img{
+    width: 30%;
+  }
+
+  
+  .mute-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #13c24d;
+    color: white;
+    border: none;
+    border-radius: 35%;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.form-container {
+    display: none; /* Hide all forms by default */
+}
+
+.form-container.active {
+    display: block; /* Show the active form */
+}
+
+.package-options .package-option {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.package-options .package-option.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}

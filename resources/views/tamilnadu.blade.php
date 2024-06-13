@@ -1,13 +1,16 @@
 @extends('layout') @section('content')
 
 <div class="tamil">
-    <video autoplay muted loop plays-inline class="background-video">
+    <video autoplay muted loop plays-inline class="background-video"  id="myVideo">
         <source
             src="{{ asset('images/background/intro.mp4') }}"
             type="video/mp4"
         />
         Your browser does not support the video tag.
     </video>
+   
+
+
 
     <div class="text-content">
         <div class="content">
@@ -38,6 +41,22 @@
                     <p>3rd Largest Contributor <br />to India's Export</p>
                 </div>
             </div>
+            <button id="muteButton" class="mute-button" onclick="toggleMute()">🔈</button>
+            
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("muteButton");
+
+        function toggleMute() {
+            if (video.muted) {
+                video.muted = false;
+                btn.innerHTML = "🔈";
+            } else {
+                video.muted = true;
+                btn.innerHTML = "🔇";
+            }
+        }
+    </script>
         </div>
     </div>
 </div>
@@ -81,7 +100,7 @@
                     >
                         <div class="testimonial-media">
                             <img
-                                src="images/testimonials/large/pic1.jpg"
+                                src="{{ asset('images/testimonials/large/pic1.jpg')}}"
                                 alt=""
                             />
                         </div>
@@ -115,7 +134,7 @@
                     >
                         <div class="testimonial-media">
                             <img
-                                src="images/testimonials/large/pic2.jpg"
+                                src="{{ asset('images/testimonials/large/pic2.jpg')}}"
                                 alt=""
                             />
                         </div>
@@ -149,7 +168,7 @@
                     >
                         <div class="testimonial-media">
                             <img
-                                src="images/testimonials/large/pic3.jpg"
+                                src="{{ asset('images/testimonials/large/pic3.jpg')}}"
                                 alt=""
                             />
                         </div>
@@ -158,14 +177,7 @@
                                 Brihadisvara Temple, Gangaikonda Cholapuram
                             </h5>
                             <p class="testimonial-text">
-                                The Brihadisvara Temple is a Hindu temple
-                                dedicated to Shiva in Gangaikonda Cholapuram,
-                                Jayankondam, in the South Indian state of Tamil
-                                Nadu. Completed in 1035 AD by Rajendra Chola I
-                                as a part of his new capital, this Chola dynasty
-                                era temple is similar in design, and has a
-                                similar name, as the older 11th century,
-                                Brihadeeswarar Temple about 70 kilometres (43
+                            The Brihadeshwara Temple at Gangaikonda Cholapuram is dedicated to Shiva and is considered as one of the largest temples of south India. It is part of the UNESCO heritage site of Great Living Chola Temples, along with the Brihadeshwara Temple at Thanjavur and the Airavatesvara Temple, Darasuram. The temple at Thanjavur was included in the UNESCO list in 1984. 
                                 <!-- min) to the southwest in Thanjavur.<a
                                     href="javascript:void(0);"
                                     data-bs-toggle="modal"
@@ -183,7 +195,7 @@
                     >
                         <div class="testimonial-media">
                             <img
-                                src="images/testimonials/large/pic4.jpg"
+                                src="{{ asset('images/testimonials/large/pic4.jpg')}}"
                                 alt=""
                             />
                         </div>
@@ -252,7 +264,7 @@
                         </p>
                     </div>
 
-                    <a href="{{url('/commercial')}}" class="btn btn-primary"
+                    <a href="{{route('commercial')}}" class="btn btn-primary"
                         >Invest Now</a
                     >
                 </div>
@@ -261,7 +273,7 @@
                 <div class="right">
                     <div class="info">
                         <img
-                            src="images/logo/pic1.png"
+                            src="{{ asset('images/logo/pic1.png')}}"
                             alt="Business-Friendly Environment and Supportive Government"
                         />
                         <p>
@@ -271,14 +283,14 @@
                     </div>
                     <div class="info">
                         <img
-                            src="images/logo/pic2.png"
+                            src="{{ asset('images/logo/pic2.png')}}"
                             alt="Diverse Talent Pool with Right Expertise"
                         />
                         <p>Diverse Talent Pool with Right Expertise.</p>
                     </div>
                     <div class="info">
                         <img
-                            src="images/logo/pic3.png"
+                            src="{{ asset('images/logo/pic3.png')}}"
                             alt="Access to Fast Growing Market"
                         />
                         <p>Access to Fast Growing Market.</p>
@@ -312,11 +324,10 @@
                             data-wow-delay="0.1s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic1.jpg"
+                                <img
+                                        src="{{ asset('images/project/city/pic1.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">CHENNAI</h5>
@@ -332,11 +343,10 @@
                             data-wow-delay="0.2s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic2.jpg"
+                               <img
+                                        src="{{ asset('images/project/city/pic2.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">KANCHIPURAM</h5>
@@ -352,11 +362,10 @@
                             data-wow-delay="0.3s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic3.jpg"
+                               <img
+                                        src="{{ asset('images/project/city/pic3.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">KANNIYAKUMARI</h5>
@@ -372,11 +381,10 @@
                             data-wow-delay="0.4s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic4.jpg"
+                              <img
+                                        src="{{ asset('images/project/city/pic4.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">OOTY</h5>
@@ -392,11 +400,10 @@
                             data-wow-delay="0.4s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic5.jpg"
+                               <img
+                                        src="{{ asset('images/project/city/pic5.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">KODAIKANAL</h5>
@@ -412,11 +419,10 @@
                             data-wow-delay="0.2s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic6.jpg"
+                               <img
+                                        src="{{ asset('images/project/city/pic6.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">MAHABALIPURAM</h5>
@@ -432,11 +438,10 @@
                             data-wow-delay="0.2s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic7.jpg"
+                                <img
+                                        src="{{ asset('images/project/city/pic7.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">MADURAI</h5>
@@ -452,11 +457,10 @@
                             data-wow-delay="0.2s"
                         >
                             <div class="dz-media">
-                                <a href="instructor.html"
-                                    ><img
-                                        src="images/project/city/pic8.jpg"
+                               <img
+                                        src="{{ asset('images/project/city/pic8.jpg')}}"
                                         alt=""
-                                /></a>
+                                />
                             </div>
                             <div class="dz-content">
                                 <h5 class="dz-name">VELANKANNI</h5>
@@ -663,194 +667,33 @@
 
     <div class="gal-box">
         <div class="gal-row">
-            <img src="images/gallery/pic1.jpg" alt="" />
-            <img src="images/gallery/pic2.jpg" alt="" />
-            <img src="images/gallery/pic8.jpg" alt="" />
-            <img src="images/gallery/pic9.jpg" alt="" />
-            <img src="images/gallery/pic15.jpg" alt="" />
+            <img src="{{ asset('images/gallery/pic1.jpg')}}" alt="" />
+            <img src="{{ asset('images/gallery/pic2.jpg')}}" alt="" />
+            <img src="{{ asset('images/gallery/pic8.jpg')}}" alt="" />
+            <img src="{{ asset('images/gallery/pic9.jpg')}}" alt="" />
+            <img src="{{ asset('images/gallery/pic15.jpg')}}" alt="" />
+
         </div>
 
         <div class="gal-row">
-            <img src="images/gallery/pic6.jpg" alt="" />
-            <img src="images/gallery/pic5.jpg" alt="" />
-            <img src="images/gallery/pic7.jpg" alt="" />
-            <img src="images/gallery/pic3.jpg" alt="" />
-            <img src="images/gallery/pic4.jpg" alt="" />
-            <img src="images/gallery/pic10.jpg" alt="" />
+        <img src="{{ asset('images/gallery/pic6.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic5.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic7.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic3.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic4.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic10.jpg')}}" alt="" />
+
         </div>
 
         <div class="gal-row">
-            <img src="images/gallery/pic11.jpg" alt="" />
-            <img src="images/gallery/pic12.jpg" alt="" />
-            <img src="images/gallery/pic13.jpg" alt="" />
-            <img src="images/gallery/pic14.jpg" alt="" />
-            <img src="images/gallery/pic5.jpg" alt="" />
-        </div>
+        <img src="{{ asset('images/gallery/pic11.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic12.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic13.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic14.jpg')}}" alt="" />
+        <img src="{{ asset('images/gallery/pic5.jpg')}}" alt="" />
+
     </div>
 </div>
 
-<!-- Our Team -->
-<!-- <section class="content-inner-2">
-    <div class="container">
-        <div class="clearfix">
-            <h1>gallery of Our Tamilnadu</h1><br>
-            <ul id="masonry" class="row">
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic1.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Culture</a>
-                                </li>
-                            </ul>
-                           
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic2.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Jallikattu</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic3.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Festivals</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic4.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Foods</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic5.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);"> Tamil Sangam</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic6.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Hill Stations</a>
-                                </li>
-                            </ul>
-                           
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic7.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Temples</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                <li
-                    class="card-container col-xl-4 col-lg-6 col-md-6 col-sm-12 Fashion m-b30"
-                >
-                    <div class="dz-card style-2 overlay-skew">
-                        <div class="dz-media">
-                            <a href="fundraiser-detail.html"
-                                ><img src="images/gallery/pic8.jpg" alt=""
-                            /></a>
-                        </div>
-                        <div class="dz-info">
-                            <ul class="dz-category">
-                                <li>
-                                    <a href="javascript:void(0);">Toursim</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</section> -->
 
 @endsection

@@ -22,7 +22,7 @@
 														<span>Donate</span>
 														<i class="flaticon-heart text-secondary ms-3"></i>
 													</a>
-													<a href="{{url('/about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
+													<a href="{{route('about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
 												</div>
 											</div>
 										</div>
@@ -71,7 +71,7 @@
 														<span>Donate</span>
 														<i class="flaticon-heart text-secondary ms-3"></i>
 													</a>
-													<a href="{{url('/about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
+													<a href="{{route('about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
 												</div>
 											</div>
 										</div>
@@ -120,7 +120,7 @@
 														<span>Donate</span>
 														<i class="flaticon-heart text-secondary ms-3"></i>
 													</a>
-													<a href="{{url('/about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
+													<a href="{{route('about_us')}}" class="btn btn-secondary btnhover2">Learn More <i class="flaticon-right-arrows ms-3"></i></a>
 												</div>
 											</div>
 										</div>
@@ -175,10 +175,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-						<div class="donate-form form-wrapper" style="background-image:url('images/background/bg1.jpg');">
+						 <div class="donate-form form-wrapper" style="background-image:url('images/background/bg1.jpg');">
 							<div class="donate-info">
 								<h2 class="title m-b20">Donate Today</h2>
-								<p>Charity law within the UK varies among England and Wales, Scotland and Northern Ireland, but the fundamental principles are the same</p>
+								<p>Your generous contribution can transform lives and preserve Tamil culture in Poland. Support our mission and make a lasting impact!</p>
 							</div>
 							<div class="form-content">
 								<form class="dzForm" method="POST" action="script/contact_smtp.php">
@@ -228,17 +228,18 @@
 								</form>
 							</div>
 						</div>
-					</div>
+					</div> 
 					<div class="col-xl-7 col-lg-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 						<div class="section-inner">
 							<div class="section-head m-b30">
 								<h5 class="sub-title">About Us</h5>
-								<h2 class="title">Help is<br> Our Main Goal</h2>
+								<h2 class="title">Empowering
+								<br> Tamil People</h2>
 							</div>
 							<div class="row m-b30">
 								<div class="col-xl-7">
-									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it.</p>
-									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+									<p>At Tamil Sangam, our primary mission is to preserve and promote Tamil culture and language while providing essential support to Tamil people in Poland and those coming from Tamil Nadu. </p>
+									<p>We are dedicated to fostering a sense of belonging, offering assistance to those in need, and ensuring that our rich heritage continues to thrive.</p>
 								</div>
 								<!-- <div class="col-xl-5">
 									<div class="counter-text-wrapper">
@@ -257,12 +258,12 @@
 									</div>
 								</div> -->
 							</div>
-							<a href="{{url('/about_us')}}" class="btn btn-primary">Read More</a>
+							<a href="{{route('about_us')}}" class="btn btn-primary">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<img class="img-1" src="{{asset('images/side-images/help.png')}}" alt="images">
+			<img class="img-1" src="{{asset('images/side-images/pic3.jpg')}}" alt="images">
 		</section>
 		<!-- Donate End-->
 
@@ -274,6 +275,15 @@
         <h2 class="title">Why TSAP</h2>
     </div>
     <div class="tiles-container">
+		<div class="first-tile">
+            <div class="gridlogo">
+                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/7.png')}}" alt="images">
+            </div>
+            <div class="gridpara">
+                <div class="separator"></div>
+                <p>Tamil Culture</p>
+            </div>
+        </div>
         <div class="first-tile">
             <div class="gridlogo">
                 <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/1.png')}}" alt="images">
@@ -328,16 +338,8 @@
                 <p>Family and Child care</p>
             </div>
         </div>
-        <div class="first-tile">
-            <div class="gridlogo">
-                <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/7.png')}}" alt="images">
-            </div>
-            <div class="gridpara">
-                <div class="separator"></div>
-                <p>Tamil Culture</p>
-            </div>
-        </div>
-        <div class="first-tile">
+       
+        <!-- <div class="first-tile">
             <div class="gridlogo">
                 <img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images">
             </div>
@@ -346,7 +348,7 @@
                 <p>Emergency Support</p>
             </div>
         </div>
-    </div>
+    </div> -->
 	<svg class="shape-1 move-1" viewBox="0 0 95 95" xmlns="http://www.w3.org/2000/svg" width="81" height="63" fill="var(--primary)" xmlns:v="https://vecta.io/nano"><circle cx="16.695" cy="3.497" r="3.497"/><circle cx="12.296" cy="21.975" r="3.497"/><circle cx="7.896" cy="40.453" r="3.497"/><circle cx="3.497" cy="58.931" r="3.497"/><circle cx="36.933" cy="3.497" r="3.497"/><circle cx="32.534" cy="21.975" r="3.497"/><circle cx="28.134" cy="40.453" r="3.497"/><circle cx="23.735" cy="58.931" r="3.497"/><circle cx="57.171" cy="3.497" r="3.497"/><circle cx="52.772" cy="21.975" r="3.497"/><circle cx="48.372" cy="40.453" r="3.497"/><circle cx="43.973" cy="58.931" r="3.497"/><circle cx="77.409" cy="3.497" r="3.497"/><circle cx="73.01" cy="21.975" r="3.497"/><circle cx="68.61" cy="40.453" r="3.497"/><circle cx="64.211" cy="58.931" r="3.497"/></svg>
 			<svg class="shape-4 move-2" viewBox="0 0 95 95" xmlns="http://www.w3.org/2000/svg" width="57" height="43" fill="var(--secondary)" xmlns:v="https://vecta.io/nano"><circle cx="11.261" cy="2.559" r="2.559"></circle><ellipse cx="8.19" cy="15.1" rx="2.559" ry="2.303"></ellipse><circle cx="5.375" cy="27.897" r="2.303"></circle><circle cx="2.559" cy="40.438" r="2.559"></circle><ellipse cx="25.85" cy="2.559" rx="2.303" ry="2.559"></ellipse><ellipse cx="23.035" cy="15.1" rx="2.559" ry="2.303"></ellipse><ellipse cx="19.963" cy="27.897" rx="2.559" ry="2.303"></ellipse><ellipse cx="16.124" cy="40.438" rx="2.303" ry="2.559"></ellipse><ellipse cx="39.67" cy="2.559" rx="2.303" ry="2.559"></ellipse><circle cx="36.599" cy="15.1" r="2.303"></circle><ellipse cx="33.784" cy="27.897" rx="2.559" ry="2.303"></ellipse><circle cx="30.713" cy="40.438" r="2.559"></circle><circle cx="54.259" cy="2.559" r="2.559"></circle><circle cx="50.42" cy="15.1" r="2.303"></circle><circle cx="47.349" cy="27.897" r="2.303"></circle><circle cx="44.533" cy="40.438" r="2.559"></circle></svg>
 			<svg class="shape-6 move-1" xmlns="http://www.w3.org/2000/svg" width="81" height="48" viewBox="0 0 81 48" fill="none">
@@ -393,7 +395,7 @@
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="icon-bx-sm m-b20">
-										<a href="{{url('/project_categories')}}" class="icon-cell">
+										<a href="{{route('project_categories')}}" class="icon-cell">
 										<div class="why"> -->
 											<!-- inline style used -->
 										 <!-- <img class="img-1" src="{{asset('images/1.png')}}" alt="images">
@@ -411,7 +413,7 @@
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="icon-bx-sm m-b20">
-										<a href="{{url('/project_categories')}}" class="icon-cell">
+										<a href="{{route('project_categories')}}" class="icon-cell">
 										<img class="img-1" viewBox="0 0 60 60" fill="none" src="{{asset('images/2.png')}}" alt="images"> -->
 											<!-- <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M30.0001 60C21.9868 60 14.4532 56.8794 8.78679 51.213C-2.91005 39.516 -2.91005 20.4837 8.78679 8.78672C14.4532 3.12059 21.9868 0 30.0001 0C38.0133 0 45.547 3.12059 51.2133 8.78695C62.9102 20.484 62.9102 39.5163 51.2133 51.2133C45.547 56.8794 38.0135 60 30.0001 60ZM30.0001 3.57598C22.942 3.57598 16.3064 6.32449 11.3156 11.3155C1.0128 21.618 1.0128 38.382 11.3156 48.6845C16.3066 53.6755 22.9422 56.424 30.0003 56.424C37.0584 56.424 43.694 53.6755 48.6848 48.6845C58.9876 38.382 58.9876 21.618 48.6848 11.3155C43.6939 6.32449 37.0582 3.57598 30.0001 3.57598ZM30.0001 47.0007C25.6446 47.0007 21.2889 45.3429 17.973 42.0271C11.3414 35.3952 11.3414 24.6049 17.973 17.973C24.6046 11.3414 35.3951 11.3414 42.027 17.973C42.7252 18.6712 42.7252 19.8034 42.027 20.5018C41.3288 21.1999 40.1967 21.1999 39.4982 20.5018C34.2609 15.2641 25.7388 15.2643 20.5013 20.5018C15.264 25.7392 15.264 34.2612 20.5013 39.4985C25.7387 44.7361 34.2608 44.7359 39.4982 39.4985C40.1964 38.8004 41.3288 38.8004 42.0268 39.4985C42.725 40.1967 42.725 41.3289 42.0268 42.0273C38.7113 45.3429 34.3556 47.0007 30.0001 47.0007Z" fill="#003B4A"/>
@@ -438,7 +440,7 @@
 							</div>
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-									<div class="icon-bx-sm m-b20"> <a href="{{url('/project_categories')}}" class="icon-cell">
+									<div class="icon-bx-sm m-b20"> <a href="{{route('project_categories')}}" class="icon-cell">
 									<img class="img-1" src="{{asset('images/8.png')}}" alt="images"> -->
 										<!-- <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path class="secondary" d="M24.1344 20.3707C27.6361 20.3707 29.207 22.3333 29.8252 23.4862C29.9029 23.6309 30.1136 23.6306 30.1909 23.4858C30.807 22.3329 32.3693 20.3707 35.8705 20.3707C39.859 20.3707 43.3676 23.0933 43.3676 28.0651C43.3676 30.077 42.9577 31.8006 41.8198 33.724C39.5007 37.6439 31.8615 42.7254 30.2923 43.7268C30.1188 43.8375 29.8991 43.8379 29.7253 43.7275C28.1549 42.7309 20.5141 37.6746 18.177 33.724C17.0391 31.8005 16.6318 30.077 16.6318 28.0651C16.6316 23.0933 20.1457 20.3707 24.1344 20.3707Z" fill="#F7CF47"/>
@@ -454,7 +456,7 @@
 							</div>
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-									<div class="icon-bx-sm m-b20"> <a href="{{url('/project_categories')}}" class="icon-cell"> -->
+									<div class="icon-bx-sm m-b20"> <a href="{{route('project_categories')}}" class="icon-cell"> -->
 										<!-- <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path class="secondary" d="M24.0053 1.67444C27.5841 1.67444 29.1898 3.68034 29.8216 3.85854C29.9009 5.00655 30.1163 5.00643 30.1953 3.85819C30.8249 3.67999 32.4218 1.67444 36.0003 1.67444C40.0768 1.67444 43.6627 3.45717 43.6627 9.53877C43.6627 11.5951 43.2435 13.3566 42.0807 15.3226C39.7105 19.3289 31.9026 24.5225 30.2987 25.546C30.1214 25.6592 29.8969 25.6593 29.7193 25.5467C28.114 24.5281 20.3048 19.3603 17.9161 15.3224C16.753 13.3564 16.3369 11.5949 16.3369 9.53866C16.337 3.45717 19.9289 1.67444 24.0053 1.67444Z" fill="#F7CF47"/>
 											<path d="M30.0084 27.3055C29.5883 27.3055 29.1784 27.1864 28.8228 26.9611C27.8442 26.34 19.1905 20.7653 16.4751 16.1753C15.2216 14.0566 14.6626 12.01 14.6626 9.53883C14.6626 6.67406 15.641 3.23469 17.492 2.48426C19.1864 0.882305 21.4995 0 24.0053 0C26.9633 0 28.8563 1.1693 30.0067 2.33098C31.1551 1.1693 33.0453 0 36.0003 0C38.506 0 40.8183 0.882656 42.5114 2.48496C44.36 3.2348 45.3372 6.67406 45.3372 9.53883C45.3372 12.0062 44.7773 14.053 43.5219 16.1753C40.8249 20.7343 32.1767 26.3343 31.1995 26.9576C30.843 27.1853 30.431 27.3055 30.0084 27.3055ZM24.0053 3.34898C21.0219 3.34898 18.0115 5.26301 18.0115 9.53883C18.0115 11.4257 18.4013 12.8544 19.3572 14.47C21.1261 17.4596 26.7784 21.6258 30.0067 23.7396C33.2345 21.6159 38.8831 17.4389 40.6394 14.47C41.5974 12.8507 41.9881 11.4221 41.9881 9.53883C41.9881 5.26301 38.9808 3.34898 36.0002 3.34898C33.4379 3.34898 32.2324 3.59879 31.6721 5.64738C31.3433 6.26238 30.7058 6.64383 30.0079 6.64383C29.3114 6.64383 28.6744 6.2632 28.3455 5.6502C27.783 3.6002 26.5732 3.34898 24.0053 3.34898Z" fill="#003B4A"/>
@@ -474,7 +476,7 @@
 							</div>
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="1.0s">
-									<div class="icon-bx-sm m-b20"> <a href="{{url('/project_categories')}}" class="icon-cell"> -->
+									<div class="icon-bx-sm m-b20"> <a href="{{route('project_categories')}}" class="icon-cell"> -->
 										<!-- <svg width="58" height="60" viewBox="0 0 58 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path class="secondary" d="M35.0318 26.7145C31.4309 26.7145 29.8153 28.7327 29.1796 29.9183C29.0998 30.0671 28.8831 30.067 28.8034 29.9179C28.1699 28.7323 26.5633 26.7145 22.9624 26.7145C18.8606 26.7145 15.2524 29.5144 15.2524 34.6274C15.2524 36.6964 15.6741 38.4689 16.8443 40.4471C19.229 44.4782 27.0852 49.7041 28.6991 50.7337C28.8776 50.8476 29.1035 50.8477 29.2821 50.7344C30.8972 49.7096 38.7549 44.5096 41.1584 40.4469C42.3286 38.4687 42.7473 36.6962 42.7473 34.6272C42.7476 29.5147 39.1334 26.7145 35.0318 26.7145Z" fill="#F7CF47"/>
 											<path d="M28.9918 52.5504C28.5576 52.5504 28.1348 52.4267 27.7682 52.1929C26.7843 51.565 18.0741 45.9249 15.355 41.3285C14.0874 39.1856 13.522 37.1189 13.522 34.6276C13.522 31.732 14.5102 29.2661 16.3799 27.4965C18.0919 25.876 20.4299 24.9835 22.9628 24.9835C25.9237 24.9835 27.828 26.1447 28.9933 27.3096C30.1606 26.145 32.0678 24.9835 35.0321 24.9835C37.5653 24.9835 39.9042 25.8757 41.6173 27.496C43.4893 29.2663 44.4788 31.7322 44.4788 34.6276C44.4788 37.1224 43.9143 39.1889 42.6487 41.3285C39.9101 45.9576 31.195 51.5714 30.2102 52.1962C29.8447 52.428 29.4235 52.5504 28.9918 52.5504ZM22.9628 28.4456C19.987 28.4456 16.9842 30.357 16.9842 34.6276C16.9842 36.5134 17.3756 37.9441 18.3347 39.5657C20.0934 42.5381 25.7456 46.7216 28.9935 48.8611C32.2421 46.732 37.8978 42.56 39.6691 39.5656C40.6261 37.9474 41.0167 36.5168 41.0167 34.6275C41.0167 30.3572 38.0109 28.4455 35.0321 28.4455C32.4713 28.4455 31.2658 29.6912 30.7056 30.7361C30.366 31.3685 29.7096 31.7607 28.9921 31.7607C28.2728 31.7607 27.6158 31.3672 27.2772 30.7337C26.7193 29.6901 25.5178 28.4456 22.9628 28.4456Z" fill="#003B4A"/>
@@ -492,7 +494,7 @@
 							</div>
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="1.2s">
-									<div class="icon-bx-sm m-b20"> <a href="{{url('/project_categories')}}" class="icon-cell"> -->
+									<div class="icon-bx-sm m-b20"> <a href="{{route('project_categories')}}" class="icon-cell"> -->
 										<!-- <svg width="54" height="60" viewBox="0 0 54 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path class="secondary" d="M27.0007 27.0456C34.0117 27.0456 39.6953 21.3621 39.6953 14.3511C39.6953 7.34005 34.0117 1.65649 27.0007 1.65649C19.9897 1.65649 14.3062 7.34005 14.3062 14.3511C14.3062 21.3621 19.9897 27.0456 27.0007 27.0456Z" fill="#F7CF47"/>
 											<path d="M26.9996 28.702C19.0862 28.702 12.6484 22.2643 12.6484 14.351C12.6484 6.4377 19.0862 0 26.9996 0C34.9127 0 41.3506 6.43793 41.3506 14.3511C41.3506 22.2643 34.9129 28.702 26.9996 28.702ZM26.9996 3.31277C20.913 3.31277 15.9612 8.26453 15.9612 14.3511C15.9612 20.4376 20.913 25.3894 26.9996 25.3894C33.0862 25.3894 38.0378 20.4376 38.0378 14.3511C38.0378 8.26465 33.0862 3.31277 26.9996 3.31277Z" fill="#003B4A"/>
@@ -512,7 +514,7 @@
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="1.4s">
 									<div class="icon-bx-sm m-b20">
-										<a href="{{url('/project_categories')}}" class="icon-cell"> -->
+										<a href="{{route('project_categories')}}" class="icon-cell"> -->
 											<!-- <svg width="60" height="44" viewBox="0 0 60 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M13.573 34.7999C12.2026 34.8 10.8326 34.2786 9.78978 33.2356L9.77736 33.2233C7.80942 31.255 7.75985 28.1986 9.65713 25.7905C13.0955 21.4264 23.2244 7.40724 23.3264 7.26603C23.3744 7.1997 23.4274 7.13724 23.4853 7.07935C24.9775 5.58743 27.1122 3.85524 29.2051 5.11598L36.9674 5.71048C37.8127 5.77528 38.4454 6.51298 38.3806 7.35802C38.316 8.2033 37.5774 8.834 36.7331 8.77119L28.932 8.17365C28.9043 8.17154 28.8769 8.16873 28.8494 8.16509C27.7195 8.01697 26.5643 8.39209 25.7368 9.17174C24.7127 10.5888 15.4242 23.4311 12.0685 27.6899C11.3047 28.6594 10.9714 30.075 11.9483 31.0521L11.9606 31.0642C12.85 31.9537 14.2978 31.954 15.1871 31.0642L20.6813 25.5463C21.2792 24.9454 22.2513 24.9434 22.852 25.5417C23.4528 26.1397 23.455 27.1118 22.8566 27.7124L17.36 33.2328C16.3154 34.2777 14.9438 34.7999 13.573 34.7999Z" fill="#003B4A"/>
 												<path class="secondary" d="M41.4527 25.3584L30.7024 25.445C28.5947 25.445 26.8858 23.7362 26.8858 21.6284V21.611C26.8858 19.7596 28.2043 18.2166 29.9534 17.8684H5.26783C3.20626 17.8684 1.53516 19.5396 1.53516 21.6011V38.4718C1.53516 40.5334 3.20637 42.2045 5.26783 42.2045H41.7586C43.8202 42.2045 45.4913 40.5333 45.4913 38.4718V23.838C44.3709 24.8035 42.9413 25.3463 41.4527 25.3584Z" fill="#F7CF47"/>
@@ -534,7 +536,7 @@
 							</div>
 							<div class="col-xl-3 col-lg-3 col-sm-6">
 								<div class="icon-bx-wraper text-center style-3 m-b30 wow fadeInUp" data-wow-delay="1.6s">
-									<div class="icon-bx-sm m-b20"> <a href="{{url('/project_categories')}}" class="icon-cell">
+									<div class="icon-bx-sm m-b20"> <a href="{{route('project_categories')}}" class="icon-cell">
 										<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M53.5835 55.812H14.4268C11.9167 55.812 9.50566 54.6235 7.97672 52.6327L1.23949 43.8597C1.01227 43.5638 0.890039 43.2007 0.892266 42.8277L0.930703 36.1608C0.936094 35.2375 1.68621 34.492 2.60918 34.492C2.6107 34.492 2.61199 34.492 2.61352 34.492C4.60535 34.4972 7.46121 34.5061 9.75516 34.5201C10.7673 34.5261 11.6244 34.5328 12.2307 34.5403C13.5202 34.5561 13.8667 34.5602 14.3619 35.0544L24.24 44.9325C25.3812 46.0737 27.2379 46.0737 28.3791 44.9325L28.3939 44.9176C29.535 43.7766 29.535 41.9197 28.3939 40.7786L19.157 31.6895C18.0497 30.5999 16.5843 29.9998 15.0309 29.9998H1.67848C0.751406 29.9999 0 29.2485 0 28.3214C0 27.3945 0.751406 26.6429 1.67848 26.6429H15.0308C17.4709 26.6429 19.7725 27.5854 21.5114 29.2969L30.7577 38.3953C33.2173 40.8549 33.2173 44.8412 30.7675 47.2913L30.7527 47.306C28.3025 49.7561 24.3162 49.7561 21.8662 47.306L12.4603 37.9001C11.4014 37.885 8.87262 37.8675 3.27793 37.8535L4.25238 42.2714L10.639 50.5879C11.5368 51.7569 12.9527 52.455 14.4267 52.455H53.5834C55.1972 52.455 56.5103 51.1422 56.5103 49.5281V49.5072C56.5103 47.8934 55.1974 46.5803 53.5834 46.5803H37.3835C36.4566 46.5803 35.705 45.8289 35.705 44.9018C35.705 43.9747 36.4564 43.2233 37.3835 43.2233H53.5833C57.048 43.2233 59.867 46.0422 59.867 49.507V49.528C59.8672 52.9931 57.0483 55.812 53.5835 55.812Z" fill="#003B4A"/>
 											<path class="secondary" d="M42.6089 37.2899C51.2863 37.2899 58.3208 30.2555 58.3208 21.578C58.3208 12.9006 51.2863 5.86609 42.6089 5.86609C33.9314 5.86609 26.897 12.9006 26.897 21.578C26.897 30.2555 33.9314 37.2899 42.6089 37.2899Z" fill="#F7CF47"/>
@@ -567,7 +569,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
 						<div class="icon-bx-wraper text-center style-5 m-b30">
 							<div class="icon-lg m-b30">
-								<a href="{{url('/project_categories')}}" class="icon-cell">
+								<a href="{{route('project_categories')}}" class="icon-cell">
 									<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<g clip-path="url(#clip0_544_431)">
 										<path d="M35.0468 53.0372C34.1331 53.0372 33.3921 52.2964 33.3921 51.3826V40.0967C33.3921 37.9721 34.2129 35.9678 35.703 34.4535L43.3936 26.6382C44.4507 25.581 45.8437 25.004 47.3255 25.004C48.8073 25.004 50.2002 25.581 51.2479 26.6288L51.2567 26.6376C52.3083 27.689 52.8853 29.0821 52.8853 30.5638C52.8853 32.0457 52.3085 33.4386 51.2607 34.4863L43.3782 42.3688C43.3659 43.2915 43.3522 45.3431 43.3406 48.951L46.7584 48.9708L53.7237 43.6218C54.6541 42.9074 55.2094 41.7807 55.2094 40.6074V8.99983C55.2094 7.76596 54.2056 6.76201 52.9717 6.76201H52.954C51.7201 6.76201 50.7162 7.76596 50.7162 8.99983V21.2033C50.7162 22.1172 49.9752 22.8579 49.0615 22.8579C48.1478 22.8579 47.4068 22.1171 47.4068 21.2033V8.99983C47.4068 5.94111 49.8953 3.45264 52.954 3.45264H52.9717C56.0304 3.45264 58.5187 5.94111 58.5187 8.99983V40.6072C58.5187 42.8019 57.4797 44.9097 55.7392 46.2463L48.324 51.9408C48.0324 52.1649 47.6747 52.2877 47.3067 52.2831L41.6716 52.2506C40.7597 52.2453 40.0241 51.5033 40.0265 50.5915C40.0321 48.4876 40.0399 46.2598 40.0503 44.5545C40.0555 43.6983 40.0611 42.9734 40.0676 42.4606C40.0812 41.3538 40.0856 40.9808 40.5724 40.494L48.9205 32.1459C49.3433 31.7233 49.5759 31.1614 49.5759 30.5635C49.5759 29.9656 49.3433 29.4039 48.9205 28.9811L48.9117 28.9723C48.4851 28.5459 47.9232 28.3131 47.3255 28.3131C46.7277 28.3131 46.1659 28.546 45.7431 28.9686L38.0619 36.7744C37.1846 37.666 36.7013 38.8458 36.7013 40.0966V51.3824C36.7015 52.2965 35.9607 53.0372 35.0468 53.0372Z" fill="#003B4A" class="secondary"></path>
@@ -602,7 +604,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 						<div class="icon-bx-wraper text-center style-5 m-b30">
 							<div class="icon-lg m-b30">
-								<a href="{{url('/project_categories')}}" class="icon-cell">
+								<a href="{{route('project_categories')}}" class="icon-cell">
 									<svg width="60" height="60" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M59.4512 32.9759C53.2245 32.9759 48.1587 27.9101 48.1587 21.6832C48.1587 15.4565 53.2245 10.3907 59.4512 10.3907C65.6781 10.3907 70.7438 15.4565 70.7438 21.6832C70.7438 22.9603 69.7082 23.9959 68.4312 23.9959C67.1542 23.9959 66.1185 22.9603 66.1185 21.6832C66.1185 18.007 63.1274 15.0162 59.4512 15.0162C55.7749 15.0162 52.7842 18.0072 52.7842 21.6832C52.7842 25.3595 55.7751 28.3506 59.4512 28.3506C60.7282 28.3506 61.7638 29.3862 61.7638 30.6632C61.7638 31.9403 60.7284 32.9759 59.4512 32.9759Z" fill="#003B4A" class="secondary"></path>
 										<path d="M63.0439 74.7086H58.1832C54.37 74.7086 51.178 71.8508 50.7585 68.0608L48.3236 46.0836C48.2513 45.4298 48.4605 44.7762 48.8992 44.2864C49.3377 43.7964 49.9644 43.5162 50.6222 43.5162H68.2807C69.5577 43.5162 70.5933 44.5519 70.5933 45.8289C70.5933 47.1059 69.5577 48.1415 68.2807 48.1415H53.2053L55.356 67.5515C55.5155 68.9948 56.7311 70.0833 58.1835 70.0833H63.0442C64.3213 70.0833 65.3569 71.1189 65.3569 72.3959C65.3569 73.673 64.3211 74.7086 63.0439 74.7086Z" fill="#003B4A" class="secondary"></path>
@@ -631,7 +633,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="icon-bx-wraper text-center style-5 m-b30">
 							<div class="icon-lg m-b30">
-								<a href="{{url('/project_categories')}}" class="icon-cell">
+								<a href="{{route('project_categories')}}" class="icon-cell">
 									<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M53.5837 55.8119H14.4269C11.9167 55.8119 9.50569 54.6234 7.97674 52.6326L1.2395 43.8596C1.01227 43.5637 0.890041 43.2006 0.892268 42.8276L0.930706 36.1607C0.936096 35.2374 1.68622 34.4919 2.60919 34.4919C2.61071 34.4919 2.612 34.4919 2.61352 34.4919C4.60536 34.4971 7.46123 34.506 9.75518 34.5199C10.7673 34.526 11.6244 34.5327 12.2308 34.5402C13.5202 34.556 13.8667 34.5601 14.362 35.0543L24.2401 44.9324C25.3812 46.0736 27.238 46.0736 28.3791 44.9324L28.394 44.9175C29.5351 43.7765 29.5351 41.9197 28.394 40.7785L19.157 31.6894C18.0497 30.5998 16.5843 29.9997 15.031 29.9997H1.67848C0.751408 29.9998 0 29.2484 0 28.3213C0 27.3943 0.751408 26.6428 1.67848 26.6428H15.0309C17.4709 26.6428 19.7725 27.5852 21.5115 29.2968L30.7578 38.3952C33.2174 40.8548 33.2174 44.8411 30.7675 47.2912L30.7528 47.306C28.3026 49.756 24.3162 49.756 21.8663 47.306L12.4603 37.9C11.4014 37.8849 8.87264 37.8674 3.27794 37.8534L4.25239 42.2713L10.639 50.5878C11.5368 51.7569 12.9528 52.4549 14.4268 52.4549H53.5835C55.1973 52.4549 56.5104 51.1421 56.5104 49.5281V49.5071C56.5104 47.8933 55.1976 46.5802 53.5835 46.5802H37.3836C36.4567 46.5802 35.7051 45.8288 35.7051 44.9017C35.7051 43.9747 36.4565 43.2232 37.3836 43.2232H53.5834C57.0482 43.2232 59.8671 46.0421 59.8671 49.507V49.5279C59.8674 52.9931 57.0484 55.8119 53.5837 55.8119Z" fill="#003B4A" class="secondary"></path>
 										<path d="M42.6089 37.29C51.2864 37.29 58.3208 30.2555 58.3208 21.578C58.3208 12.9006 51.2864 5.86609 42.6089 5.86609C33.9314 5.86609 26.897 12.9006 26.897 21.578C26.897 30.2555 33.9314 37.29 42.6089 37.29Z" fill="#F7CF47" class="primary"></path>
@@ -653,10 +655,10 @@
 					</div>
 				</div>
 				<div class="text-center btn-bottom wow fadeInUp" data-wow-delay="0.8s">
-					<a href="{{url('/become_member')}}" class="btn btn-primary">Take a step	</a>
+					<a href="{{route('become_member')}}" class="btn btn-primary">Take a step	</a>
 				</div>
 			</div>
-			<img src="{{asset('images/side-images/bg.png')}}" alt="images" class="img-1">
+			<!-- <img src="{{asset('images/side-images/bg.png')}}" alt="images" class="img-1"> -->
 			<svg class="img-2" width="345" height="466" viewBox="0 0 345 466" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M262.501 40.6868L271.004 3.93595C271.493 2.87988 273.898 1.96049 275.634 3.16598L311.982 28.408C314.116 29.8902 313.485 33.2002 310.955 33.793L266.104 44.3019C263.933 44.8106 261.985 42.8565 262.501 40.6868Z" fill="var(--secondary)"/>
 				<path d="M260 20.0002C202.667 8.66685 91.4001 7.40018 105 93.0002C122 200 217 215 288 255C359 295 350 340 322 384C294 428 184 500 -28 442" stroke="var(--secondary)" stroke-width="3" stroke-dasharray="10 10"/>
@@ -670,7 +672,7 @@
 			<div class="container-fluid">
 				<div class="content-inner bg-gray section-inner" style="background-image:url('images/background/bg10.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
 					<div class="section-head text-center wow fadeInUp" data-wow-delay="0.2s">
-						<h5 class="sub-title">LATEST CAUSES</h5>
+						<h5 class="sub-title">OUR LATEST</h5>
 						<h2>TSAP Events</h2>
 					</div>
 					<div class="swiper latest-causes">
@@ -678,13 +680,13 @@
 							<div class="swiper-slide">
 								<div class="dz-card style-5 wow fadeInUp" data-wow-delay="0.2s">
 									<div class="dz-media">
-										<a href="f{{url('/browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic1.jpg')}}" alt=""></a>
+										<a href="{{route('browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic1.jpg')}}" alt=""></a>
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">EDUCATION</a></li>
 										</ul>
-										<h4 class="dz-title"><a href="f{{url('/browse_fundraiser')}}">He Created the Web. Now He’s Out to Remake </a></h4>  
+										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">He Created the Web. Now He’s Out to Remake </a></h4>  
 										
 											
 										<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex..</p> 
@@ -709,13 +711,13 @@
 							<div class="swiper-slide">
 								<div class="dz-card style-5 wow fadeInUp" data-wow-delay="0.4s">
 									<div class="dz-media">
-										<a href="f{{url('/browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic2.jpg')}}" alt=""></a>
+										<a href="{{route('browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic2.jpg')}}" alt=""></a>
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">HEALTH</a></li>
 										</ul>
-										<h4 class="dz-title"><a href="f{{url('/browse_fundraiser')}}">Online legal advice for asylum seekers in Greece</a></h4>  
+										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">Online legal advice for asylum seekers in Greece</a></h4>  
 										
 										<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex..</p> 
 										<!-- <div class="progress-bx style-2">
@@ -739,13 +741,13 @@
 							<div class="swiper-slide">
 								<div class="dz-card style-5 wow fadeInUp" data-wow-delay="0.6s">
 									<div class="dz-media">
-										<a href="f{{url('/browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic3.jpg')}}" alt=""></a>
+										<a href="{{route('browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic3.jpg')}}" alt=""></a>
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">TECHNOLOGY</a></li>
 										</ul>
-										<h4 class="dz-title"><a href="f{{url('/browse_fundraiser')}}">Things parents learned for they jids in 2020</a></h4>  
+										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">Things parents learned for they jids in 2020</a></h4>  
 										
 										<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex..</p> 
 										<!-- <div class="progress-bx style-2">
@@ -769,13 +771,13 @@
 							<div class="swiper-slide">
 								<div class="dz-card style-5 wow fadeInUp" data-wow-delay="0.8s">
 									<div class="dz-media">
-										<a href="f{{url('/browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic4.jpg')}}" alt=""></a>
+										<a href="{{route('browse_fundraiser')}}"><img src="{{asset('images/project/project1/pic4.jpg')}}" alt=""></a>
 									</div>
 									<div class="dz-info">
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">EDUCATION</a></li>
 										</ul>
-										<h4 class="dz-title"><a href="f{{url('/browse_fundraiser')}}">He Created the Web. Now He’s Out to Remake </a></h4>  
+										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">He Created the Web. Now He’s Out to Remake </a></h4>  
 										
 										<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex..</p> 
 										<!-- <div class="progress-bx style-2">
@@ -799,7 +801,7 @@
 						</div>
 					</div>
 					<div class="text-center m-t30 m-b30 wow fadeInUp" data-wow-delay="1.0s">
-						<a class="btn btn-primary" href="{{url('/blog')}}">View All Causes</a>
+						<a class="btn btn-primary" href="{{route('blog')}}">View All Events</a>
 					</div>
 				</div>
 			</div>
@@ -889,8 +891,8 @@
 				</div>
 			</div>
 			<div class="container text-center m-t30">
-				<a href="{{url('/browse_fundraiser')}}" class="btn btn-secondary m-r15 m-b15">Start A Fundraiser For Free</a>
-				<a href="{{url('/contact')}}" class="btn btn-dark m-b15">Talk To Us</a>
+				<a href="{{route('browse_fundraiser')}}" class="btn btn-secondary m-r15 m-b15">Start A Fundraiser For Free</a>
+				<a href="{{route('contact')}}" class="btn btn-dark m-b15">Talk To Us</a>
 			</div>
 		</section> -->
 		<!-- Testimonials End -->
@@ -956,7 +958,7 @@
 		<!-- Map End-->		
 		
 		<!-- Our Blog  -->
-		<section class="content-inner-2">
+		<!-- <section class="content-inner-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-7 col-lg-12">
@@ -966,14 +968,14 @@
 						</div>
 						<div class="dz-card style-6 blog-half wow fadeInUp" data-wow-delay="0.2s">
 							<div class="dz-media">
-								<a href="{{url('blog_details')}}"><img src="{{asset('images/blog/blog-grid/pic1.jpg')}}" alt=""></a>
+								<a href="{{route('blog_details')}}"><img src="{{asset('images/blog/blog-grid/pic1.jpg')}}" alt=""></a>
 								<ul class="dz-badge-list">
 									<li><a href="javascript:void(0);" class="dz-badge">14 Fan 2022</a></li>
 								</ul>
-								<a href="{{url('blog_details')}}" class="btn btn-secondary">Read More</a>
+								<a href="{{route('blog_details')}}" class="btn btn-secondary">Read More</a>
 							</div>
 							<div class="dz-info">
-								<h4 class="dz-title"><a href="{{url('blog_details')}}">Start a fundraiser for yourself in World</a></h4>
+								<h4 class="dz-title"><a href="{{route('blog_details')}}">Start a fundraiser for yourself in World</a></h4>
 								<div class="dz-meta">
 									<ul>
 										<li class="dz-user">
@@ -991,14 +993,14 @@
 						</div>
 						<div class="dz-card style-6 blog-half wow fadeInUp" data-wow-delay="0.4s">
 							<div class="dz-media">
-								<a href="{{url('blog_details')}}"><img src="{{asset('images/blog/blog-grid/pic2.jpg')}}" alt=""></a>
+								<a href="{{route('blog_details')}}"><img src="{{asset('images/blog/blog-grid/pic2.jpg')}}" alt=""></a>
 								<ul class="dz-badge-list">
 									<li><a href="javascript:void(0);" class="dz-badge">14 Fan 2022</a></li>
 								</ul>
-								<a href="{{url('blog_details')}}" class="btn btn-secondary">Read More</a>
+								<a href="{{route('blog_details')}}" class="btn btn-secondary">Read More</a>
 							</div>
 							<div class="dz-info">
-								<h4 class="dz-title"><a href="{{url('blog_details')}}">Start a fundraiser for yourself in World</a></h4>
+								<h4 class="dz-title"><a href="{{route('blog_details')}}">Start a fundraiser for yourself in World</a></h4>
 								<div class="dz-meta">
 									<ul>
 										<li class="dz-user">
@@ -1023,7 +1025,7 @@
 								</ul>
 							</div>
 							<div class="dz-info">
-								<h2 class="dz-title"><a href="{{url('blog_details')}}" class="text-white">Directly support individuals Charity</a></h2>
+								<h2 class="dz-title"><a href="{{route('blog_details')}}" class="text-white">Directly support individuals Charity</a></h2>
 								<div class="dz-meta">
 									<ul>
 										<li class="dz-user">
@@ -1041,7 +1043,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- Our Blog End  -->	
 		
 		<!-- Client Logo -->
@@ -1101,7 +1103,7 @@
 						<div class="content-bx style-1 bg-secondary text-center">
 							<div class="inner-content">
 								<div class="icon-lg m-b20">
-									<a href="{{url('/project_categories')}}" class="icon-cell">
+									<a href="{{route('project_categories')}}" class="icon-cell">
 										<svg width="81" height="66" viewBox="0 0 81 66" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M32.8415 39.1484C31.7105 39.1484 30.7937 38.2316 30.7937 37.1006V12.1683C30.7937 11.2084 30.0129 10.4277 29.053 10.4277C28.0932 10.4277 27.3124 11.2084 27.3124 12.1683V37.1009C27.3124 38.2319 26.3955 39.1487 25.2646 39.1487C24.1337 39.1487 23.2168 38.2319 23.2168 37.1009V12.1683C23.2168 8.95016 25.8349 6.33203 29.053 6.33203C32.2712 6.33203 34.8893 8.95016 34.8893 12.1683V37.1009C34.8893 38.2317 33.9724 39.1484 32.8415 39.1484Z" fill="#141818"/>
 											<path d="M17.6877 39.1483C16.5567 39.1483 15.6399 38.2314 15.6399 37.1005V10.2738C15.6399 9.31391 14.8591 8.53313 13.8992 8.53313C12.9394 8.53313 12.1586 9.31391 12.1586 10.2738V15.5152C12.1586 16.6461 11.2417 17.563 10.1108 17.563C8.97986 17.563 8.06299 16.6461 8.06299 15.5152V10.2738C8.06299 7.05563 10.6811 3.4375 13.8992 3.4375C17.1174 3.4375 19.7355 7.05563 19.7355 10.2738V37.1008C19.7355 38.2316 18.8186 39.1483 17.6877 39.1483Z" fill="#141818"/>
@@ -1120,7 +1122,7 @@
 								</div>
 								<h3 class="title">Want To Help?</h3>
 								<p class="m-b30 text-dark">Your financial support is very important for our global projects.</p>
-								<a class="btn btn-primary" href="{{url('volunteer')}}">Become Volunteer</a>
+								<a class="btn btn-primary" href="{{route('volunteer')}}">Become Volunteer</a>
 							</div>
 						</div>
 					</div>
@@ -1129,7 +1131,7 @@
 							<div class="inner-content">
 								<h2 class="title text-white m-b15 display-3 font-weight-700"><span class="counter">4258</span><span>+</span></h2>
 								<p class="m-b30 text-white">Our campaign is powered by contributions from supporters like you</p>
-								<a class="btn btn-primary" href="{{url('/')}}">Subscribers</a>
+								<a class="btn btn-primary" href="{{route('home')}}">Subscribers</a>
 							</div>
 						</div>
 					</div>

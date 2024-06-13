@@ -338,3 +338,207 @@
 									}
 									}
 									</script>
+
+
+
+
+
+
+
+<div class="form-container active" id="individual">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <input name="dzName" required="" type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Address</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Package</label>
+                                    <div class="input-group">
+                                        <select required class="form-control" aria-label="Package">
+                                            <option value="" disabled selected>Choose your package</option>
+                                            <option value="monthly">Monthly Package</option>
+                                            <option value="yearly">Yearly Package</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group mb-0 text-center">
+                                    <button name="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Proceed To Pay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-container" id="student">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <input name="dzName" required="" type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" placeholder="Phone Number">
+										</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Student Id</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Student Id">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Institute</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Name of Institute">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Address</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Package</label>
+                                    <div class="input-group">
+                                        <select required class="form-control" aria-label="Package">
+                                            <option value="" disabled selected>Choose your package</option>
+                                            <option value="monthly">Monthly Package</option>
+                                            <option value="yearly">Yearly Package</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group mb-0 text-center">
+                                    <button name="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Proceed To Pay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-container" id="family">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <input name="dzName" required="" type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Spouse Name</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Spouse Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Children Names</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Children Names">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Address</label>
+                                    <div class="input-group">
+                                        <input required type="text" class="form-control" placeholder="Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-label">Package</label>
+                                    <div class="input-group">
+                                        <select required class="form-control" aria-label="Package">
+                                            <option value="" disabled selected>Choose your package</option>
+                                            <option value="monthly">Monthly Package</option>
+                                            <option value="yearly">Yearly Package</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group mb-0 text-center">
+                                    <button name="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Proceed To Pay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>

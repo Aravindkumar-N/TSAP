@@ -3,7 +3,7 @@
 <section
     class="content-inner-3"
     style="
-        background-image: url('images/background/bg10.jpg');
+        background-image: url({{asset('images/background/bg10.jpg')}});
         background-position: center;
     "
 >
@@ -112,7 +112,7 @@ Services -->
                 <div class="resources_img_container">
                     <img
                         id="resources_trade_partnership_img"
-                        src="images/logo/logo1.png"
+                        src="{{asset('images/logo/logo1.png')}}"
                         class="resources_non_anim_img"
                         alt="Trade Partnership"
                     />
@@ -131,7 +131,7 @@ Services -->
                 <div class="resources_img_container">
                     <img
                         id="resources_investment_opportunities_img"
-                        src="images/logo/logo2.png"
+                        src="{{asset('images/logo/logo2.png')}}"
                         class="resources_non_anim_img"
                         alt="Investment Opportunities"
                     />
@@ -152,7 +152,7 @@ Services -->
                 <div class="resources_img_container">
                     <img
                         id="resources_export_import_guidance_img"
-                        src="images/logo/logo3.png"
+                        src="{{asset('images/logo/logo3.png')}}"
                         class="resources_non_anim_img"
                         alt="Export Import Guidance"
                     />
@@ -171,7 +171,7 @@ Services -->
                 <div class="resources_img_container">
                     <img
                         id="resources_support_polish_companies_img"
-                        src="images/logo/logo4.png"
+                        src="{{asset('images/logo/logo4.png')}}"
                         class="resources_non_anim_img"
                         alt="Support for Polish Companies"
                     />

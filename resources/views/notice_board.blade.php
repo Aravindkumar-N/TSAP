@@ -1,8 +1,6 @@
 @extends('layout')
 @section('content')
 
-@extends('layout')
-@section('content')
 
 <div class="page-wraper">
 
@@ -102,7 +100,7 @@
 	</div>
 	<!-- Construction -->
 	
-@endsection
+
 
 
 @endsection

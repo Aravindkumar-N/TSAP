@@ -19,21 +19,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Title -->
-	<title>Akcel - Crowdfunding & Charity HTML5 Template</title>
+	<title>TSAP - Coming soon</title>
 	
 	<!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="{{asset('images/tamil_logo2.jpg')}}">
     
 	<!-- Stylesheet -->
-    <link href="vendor/animate/animate.css" rel="stylesheet">
-    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
-	<link href="vendor/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="{{asset('vendor/animate/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('vendor/magnific-popup/magnific-popup.min.css')}}" rel="stylesheet">
+	<link href="{{asset('vendor/bootstrap-select/css/bootstrap-select.min.css')}}" rel="stylesheet">
 	
 	<!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 		
-	<link rel="stylesheet" href="vendor/switcher/switcher.css">
-	<link rel="stylesheet" href="vendor/rangeslider/rangeslider.css">
+	<link rel="stylesheet" href="{{asset('vendor/switcher/switcher.css')}}">
+	<link rel="stylesheet" href="{{asset('vendor/rangeslider/rangeslider.css')}}">
 	
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,12 +69,12 @@
 	<div class="coming-soon background-luminosity" data-text="TSAP" style="background-image: url(images/background/bg20.jpg)">
 		<div class="inner-content">
 			<div class="logo-header logo-light">
-				<a href="{{url('/')}}"><img src="images/tamil_logo3.png" alt=""></a>
+				<a href="{{route('home')}}"><img src="{{asset('images/tamil_logo3.png')}}" alt=""></a>
 			</div>
 			<h1 class="dz-head">We Are Coming <span class="text-secondary">Soon !</span></h1>
 			<p>We`ll be here soon with our new awesome site, subscribe to be notified.</p>
-			<a href="contact-us.html" class="btn btn-light btn-skew m-r15"> <span>GET IN TOUCH</span></a>
-			<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#SubscribeModal" class="btn btn-skew btn-secondary"><span>SUBSCRIBE NOW</span></a>
+			<a href="route{{asset('contact_us')}}" class="btn btn-light btn-skew m-r15"> <span>GET IN TOUCH</span></a>
+			<a href="route{{asset('home')}}" data-bs-toggle="modal" data-bs-target="#SubscribeModal" class="btn btn-skew btn-secondary"><span>Visit Website</span></a>
 		</div>
 		<div class="countdown-timer countdown-container">
 			<div class="clock">
@@ -114,7 +114,7 @@
 	<div class="modal fade inquiry-modal" id="SubscribeModal" tabindex="-1" aria-labelledby="SubscribeModal" aria-modal="true" role="dialog">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="inquiry-adv">
-				<img src="images/banner/bnr3.jpg" alt="Image">
+				<img src="{{asset('images/banner/bnr3.jpg')}}" alt="Image">
 			</div>
 			<div class="modal-content">
 				<div class="modal-header">
@@ -143,15 +143,15 @@
 </div>
 
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-<script src="vendor/wow/wow.js"></script><!-- WOW JS -->
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="vendor/countdown/kinetic.js"></script><!-- COUNTDOWN JS -->
-<script src="vendor/countdown/jquery.final-countdown.js"></script><!-- COUNTDOWN JS -->
-<script src="js/dz.ajax.js"></script><!-- AJAX -->
-<script src="js/custom.js"></script><!-- CUSTOM JS -->
-<script src="js/dznav-init.js"></script><!-- DZNAV INIT -->
+<script src="{{asset('js/jquery.min.j')}}s"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('vendor/wow/wow.js')}}')}}"></script><!-- WOW JS -->
+<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{asset('vendor/countdown/kinetic.js')}}"></script><!-- COUNTDOWN JS -->
+<script src="{{asset('vendor/countdown/jquery.final-countdown.js')}}"></script><!-- COUNTDOWN JS -->
+<script src="{{asset('js/dz.ajax.js')}}"></script><!-- AJAX -->
+<script src="{{asset('js/custom.js')}}"></script><!-- CUSTOM JS -->
+<script src="{{asset('js/dznav-init.js')}}"></script><!-- DZNAV INIT -->
 
-<script src="vendor/rangeslider/rangeslider.js"></script><!-- RANGESLIDER -->
+<script src="{{asset('vendor/rangeslider/rangeslider.js')}}"></script><!-- RANGESLIDER -->
 </body>
 </html>

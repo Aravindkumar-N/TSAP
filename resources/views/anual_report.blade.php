@@ -12,7 +12,7 @@
 	<div class="page-content bg-white">
 		
 		<!-- Banner  -->
-		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/background/bg10.jpg');">
+		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/background/bg12.jpg');">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
 					<h1>Anual Report</h1>
@@ -29,7 +29,7 @@
 		<section class="content-inner bg-light section-pattren1">
 			<div class="container">
 				<div class="row">
-                <section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url('images/background/bg1.jpg');  background-size: cover; background-repeat: no-repeat;">
+                <section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url({{asset('images/background/bg1.jpg')}});  background-size: cover; background-repeat: no-repeat;">
 			<div class="container">
 				<div class="white">
 				<h1>Annual Report of 2023</h1>
@@ -40,7 +40,7 @@
                 
 					<div class="row g-0">
                     <video class="video" controls>
-                        <source src="images/annual.mp4" type="video/mp4">
+                        <source src="{{asset('images/annual.mp4')}}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
 					</div>

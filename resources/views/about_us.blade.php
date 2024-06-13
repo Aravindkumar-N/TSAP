@@ -6,14 +6,14 @@
 	<div class="page-content bg-white">
 		
 		<!-- Banner  -->
-		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/banner/bnr1.jpg');">
+		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url({{asset('images/background/bg12.jpg')}});">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
 					<h1>About Us</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+							<li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
 							<li class="breadcrumb-item active" aria-current="page">About Us</li>
 						</ul>
 					</nav>
@@ -29,36 +29,39 @@
 				<div class="row align-items-center">
 					<div class="col-lg-7">
 						<div class="section-head">
-							<h5 class="sub-title">Who We Are</h5>
-							<h2>Experienced more than 25 Years in Crowdfunding</h2>
-							<p class="m-t20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+							<h5 class="sub-title">About us</h5>
+							<h2>Preserving Heritage, <br>
+							Empowering Lives</h2>
+							<p class="m-t20">Tamil Sangam Association of Poland (TSAP) is the pioneering Tamil organization in Poland, dedicated to preserving and promoting Tamil culture and language.</p>
 						</div>
-						<div class="icon-bx-wraper box-hover style-2 m-b30">
+						
+						 <div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-shield"></i>
 								</a> 
 							</div>
 							<div class="icon-content">
-							<h5 class="dz-tilte m-b5 text-capitalize">Trusted Partner</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							<h5 class="dz-tilte m-b5 text-capitalize">Mission</h5>
+								<p>Our mission is to preserve and promote the rich cultural heritage and language of Tamil Nadu while providing essential support and resources to Tamil people in Poland. We strive to foster a sense of belonging and unity, ensuring that every Tamil individual feels connected, supported, and empowered in their new environment.
+								</p>
 							</div>
 						</div>
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-shield"></i>
 								</a> 
 							</div>
 							<div class="icon-content">
-								<h5 class="dz-tilte m-b5 text-capitalize">Responsibility</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<h5 class="dz-tilte m-b5 text-capitalize">Vision</h5>
+								<p>Our vision is to build a vibrant and dynamic Tamil network in Poland that celebrates our cultural identity and contributes positively to the multicultural fabric of Polish society. We aspire to create a strong, cohesive network where Tamils can thrive, share their heritage, and support one another in achieving success and fulfillment. </p>
 							</div>
-						</div>
+						</div> 
 					</div>
 					<div class="col-lg-5 m-b30">
 						<div class="dz-media">
-							<img src="images/main-slider/slider2/pic1.png" alt="image">
+							<img src="{{asset('images/main-slider/slider2/pic4.png')}}" alt="image">
 						</div>
 					</div>
 				</div>
@@ -67,16 +70,16 @@
 		
 		
 		<!-- About Us -->
-		<section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url('images/background/bg1.jpg');  background-size: cover; background-repeat: no-repeat;">
+		<section class="content-inner-2 overlay-primary-dark about-wrapper2 bg-img-fix" style="background-image:url({{asset('images/background/bg1.jpg')}});  background-size: cover; background-repeat: no-repeat;">
 			<div class="container">
 				<div class="about-bx2">
 					<div class="row g-0">
 						<div class="col-lg-8">
 						<div class="dz-info">
 								<h2 class="title m-b30 m-md-b20">Founder & President</h2>
-								<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+								<p class="text">As the Founder and President of Tamil Sangam Association of Poland (TSAP), I am deeply committed to preserving our rich Tamil heritage and fostering a supportive network for all Tamils in Poland. Our mission is to ensure every individual feels a sense of belonging and empowerment. Together, we can celebrate our culture and make meaningful contributions to our new home.</p>
 								<div class="signature">
-									<img src="images/about/signature.png" alt="image">
+									<img src="{{asset('images/about/signature.png')}}" alt="image">
 									<p class="text-dark m-t15 mb-0">K. YUSUF MASTHAN</p>
 								</div>
 							</div>
@@ -84,7 +87,7 @@
 						</div>
 						<div class="col-lg-4">
 						<div class="dz-media">
-								<img src="images/about/pic1.jpg" alt="image">
+								<img src="{{asset('images/about/pic1.jpg')}}" alt="image">
 							</div>
 						</div>
 					</div>
@@ -94,18 +97,18 @@
 		<!-- About Us -->
 		
 		<!-- icon -box -->
-		<section class="content-inner"> 
+		<!-- <section class="content-inner"> 
 			<div class="container">
 				<div class="section-head text-center">
 					<h5 class="sub-title">CATEGORIES</h5>
-					<h2 class="m-b20">Why choose Akcel</h2>
+					<h2 class="m-b20">Why choose TSAP</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no</p>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-vr-glasses"></i>
 								</a> 
 							</div>
@@ -118,7 +121,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-transformation"></i>
 								</a> 
 							</div>
@@ -131,7 +134,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-doctor-bag"></i>
 								</a> 
 							</div>
@@ -144,7 +147,7 @@
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="icon-bx-wraper box-hover style-2 m-b30">
 							<div class="icon-lg"> 
-								<a href="{{url('/coming_soon')}}" class="icon-cell">
+								<a href="{{route('coming_soon')}}" class="icon-cell">
 									<i class="flaticon-open-book"></i>
 								</a> 
 							</div>
@@ -156,17 +159,17 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- icon -box -->
 		 
 		
 		<!-- Our Mission -->
-		<section class="content-inner-2 bg-light section-pattren1">
+		<!-- <section class="content-inner-2 bg-light section-pattren1">
 			<div class="container">
 				<div class="row about-bx3 align-items-center">
 					<div class="col-lg-5">
 						<div class="dz-media">
-							<img src="images/main-slider/pic1.png" alt="image">
+							<img src="{{asset('images/main-slider/pic1.jpg')}}" alt="image">
 						</div>
 					</div>
 					<div class="col-lg-7 m-b50">
@@ -189,8 +192,8 @@
 								<span class="counter-text">Total Donation</span>
 							</div>
 						</div>
-						<a href="{{url('project_story')}}" class="m-r30 m-sm-r10 btn btn-secondary">See Projects <i class="flaticon-right-arrows ps-3"></i></a>
-						<a href="{{url('/how_work')}}" class="btn btn-outline-dark">How It Works</a>
+						<a href="{{route('project_story')}}" class="m-r30 m-sm-r10 btn btn-secondary">See Projects <i class="flaticon-right-arrows ps-3"></i></a>
+						<a href="{{route('how_work')}}" class="btn btn-outline-dark">How It Works</a>
 					</div>
 				</div>
 			</div>
@@ -224,7 +227,7 @@
 				  <rect width="15.3997" height="89.934" transform="matrix(0.893767 -0.448532 -0.448532 -0.893767 70.1479 100.841)" fill="var(--primary)"></rect>
 				</g>
 			</svg>
-		</section>
+		</section> -->
 		
 			<!-- Our Team -->
 		<section class="content-inner-3 section-pattren1">
@@ -232,14 +235,14 @@
 				<div class="section-head text-center wow fadeInUp" data-wow-delay="0.1s">
 					<h6 class="sub-title">TEAM MEMBER</h6>
 					<h2 class="title">Meet Our Great Member</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<p>Discover the passionate and committed individuals who make up the Tamil Sangam Association of Poland (TSAP). </p>
 				</div>
 				<div class="swiper team-slider">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="swiper-slidere">   <!-- swiper-slide -->
+							<div class="dz-team style-1 m-b30 wow fadeInUp" style="width: 75%;"  data-wow-delay="0.1s">
 								<div class="dz-media">
-									<a href="{{url('/coming_soon')}}"><img src="images/team/team1.jpg" alt=""></a>
+									<a href="{{route('coming_soon')}}"><img src="{{asset('images/team/team1.jpg')}}" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -252,10 +255,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide">
-							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.2s">
+						<div class="swiper-slidere">     <!-- swiper-slide -->
+							<div class="dz-team style-1 m-b30 wow fadeInUp" style="width: 75%;" data-wow-delay="0.2s">
 								<div class="dz-media">
-									<a href="{{url('/coming_soon')}}"><img src="images/team/team2.jpg" alt=""></a>
+									<a href="{{route('coming_soon')}}"><img src="{{asset('images/team/team2.jpg')}}" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -271,7 +274,7 @@
 						<!-- <div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.3s">
 								<div class="dz-media">
-									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
+									<a href="{{route('coming_soon')}}"><img src="{{asset('images/team/team2.jpg')}}" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -287,7 +290,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="dz-media">
-									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
+									<a href="{{route('coming_soon')}}"><img src="{{asset('images/team/team2.jpg')}}" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -303,7 +306,7 @@
 						<div class="swiper-slide">
 							<div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="dz-media">
-									<a href="{{url('/coming_soon')}}"><img src="images/team/team7.jpg" alt=""></a>
+									<a href="{{route('coming_soon')}}"><img src="{{asset('images/team/team2.jpg')}}" alt=""></a>
 									<ul class="team-social">
 										<li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a></li>
 										<li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
@@ -355,7 +358,7 @@
 		<!-- Call Action -->
 			<div class="call-action style-1 content-inner-1">
 				<div class="container">
-					<div class="inner-action overlay-primary-dark" style="background-image:url('images/background/bg1.jpg'); background-size: cover; background-repeat: no-repeat;">
+					<div class="inner-action overlay-primary-dark" style="background-image:url({{asset('images/background/bg1.jpg')}}); background-size: cover; background-repeat: no-repeat;">
 						<div class="row inner-content justify-content-center">
 							<div class="col-xl-6 col-lg-9">
 								<div class="section-head text-center">
