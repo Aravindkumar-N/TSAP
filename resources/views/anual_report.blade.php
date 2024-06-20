@@ -2,12 +2,6 @@
 @section('content')
 	
 
-
-
-
-
-
-
 	
 	<div class="page-content bg-white">
 		
@@ -15,7 +9,7 @@
 		<div class="dz-bnr-inr dz-bnr-inr-sm style-1 text-center overlay-primary-dark" style="background-image:url('images/background/bg12.jpg');">
 			<div class="container">
 				<div class="dz-bnr-inr-entry">
-					<h1>Anual Report</h1>
+					<h1>Annual Report</h1>
 					<!-- Breadcrumb Row -->
 					<nav aria-label="breadcrumb" class="breadcrumb-row">
 						<p>Explore our Annual Reports to gain insights into Tamil Sangam’s achievements, financial performance, and strategic initiatives over the past years. These comprehensive reports highlight our efforts, progress, and future plans, providing transparency and accountability to our members and partners.</p>

@@ -133,7 +133,7 @@
 								<a href="blog-details.html" class="btn btn-secondary">Read More</a>
 							</div>
 							<div class="dz-info">
-								<h5 class="dz-title"><a href="blog-details.html">4 Things parents learned for they jids in 2020 </a></h5>
+								<h5 class="dz-title"><a href="blog-details.html">4 Things parents learned for their Kids in 2024 </a></h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua.</p>
 								
 								<div class="author-wrappper">

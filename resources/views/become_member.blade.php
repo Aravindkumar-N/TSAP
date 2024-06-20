@@ -20,8 +20,14 @@
                             thriving community dedicated to making your life in
                             Poland enriching and hassle-free.
                         </p>
-                        <a href="#modalpackage" class="btn btn-secondary btnhover2 m-r15">Get membership
-                            <i class="flaticon-right-arrows ms-3 scale1"></i></a>
+                      
+                         
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Get membership<i class="flaticon-right-arrows ms-3 scale1"></i>
+    </button>
+
+                        <!-- <a onclick="alert('Membership Feature Coming Soon!')" class="btn btn-secondary btnhover2 m-r15">Get membership
+                            <i class="flaticon-right-arrows ms-3 scale1"></i></a> -->
 
                         <div class="swiper banner-clients-swiper">
                             <div class="swiper-wrapper"></div>
@@ -345,7 +351,7 @@
                 </label>
             </div> -->
 
-            <div class="form">
+            <div class="package-card">
                 <div id="monthlyPricing" class="pricing-container">
                     <div class="packages">
                         <div class="package" id="monthly">
@@ -391,7 +397,9 @@
             </div>
             <div>
                 <p>
-                *All above-mentioned benefits are available to active members. Active members are those who have paid for a yearly subscription or have paid continuously for at least 3 months on a monthly subscription. Save money by choosing our yearly plan!
+                    *All above-mentioned benefits are available to active members. Active members are those who have
+                    paid for a yearly subscription or have paid continuously for at least 3 months on a monthly
+                    subscription. Save money by choosing our yearly plan!
                 </p>
             </div>
         </div>
@@ -407,16 +415,16 @@
                         offer.
                     </p>
                     <a class="btn btn-primary btnhover1" href="javascript:void(0);" data-bs-toggle="modal"
-                        data-bs-target="#modalpackage">
+                        data-bs-target="#myModal">
                         <span>Get membership</span>
-                        <i class="flaticon-heart text-secondary ms-3"></i>
+                     
                     </a>
                 </div>
             </div>
         </section>
     </section>
 
-    <section class="gradient-white" style="
+    <!-- <section class="gradient-white" style="
             background-image: url('images/background/bg1.jpg');
             background-position: center;
         ">
@@ -461,16 +469,16 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                <label class="form-label">Packages</label>
-                <div class="input-group">
-                    <select required class="form-control" aria-label="Package">
-                        <option value="" disabled selected>Choose your package</option>
-                        <option value="monthly">Monthly Package</option>
-                        <option value="yearly">Yearly Package</option>
-                    </select>
-                </div>
-            </div>
-                                        <button type="submit">Submit</button>
+                                            <label class="form-label">Packages</label>
+                                            <div class="input-group">
+                                                <select required class="form-control" aria-label="Package">
+                                                    <option value="" disabled selected>Choose your package</option>
+                                                    <option value="monthly">Monthly Package</option>
+                                                    <option value="yearly">Yearly Package</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button type="">Coming Soon</button>
                                     </div>
                                 </form>
                             </div>
@@ -513,17 +521,17 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                <label class="form-label">Packages</label>
-                <div class="input-group">
-                    <select required class="form-control" aria-label="Package">
-                        <option value="" disabled selected>Choose your package</option>
-                        <option value="monthly">Monthly Package</option>
-                        <option value="yearly">Yearly Package</option>
-                    </select>
-                </div>
-            </div>
+                                            <label class="form-label">Packages</label>
+                                            <div class="input-group">
+                                                <select required class="form-control" aria-label="Package">
+                                                    <option value="" disabled selected>Choose your package</option>
+                                                    <option value="monthly">Monthly Package</option>
+                                                    <option value="yearly">Yearly Package</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                        <button type="submit">Submit</button>
+                                        <button type="">Coming Soon</button>
                                     </div>
                                 </form>
                             </div>
@@ -566,74 +574,53 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                <label class="form-label">Packages</label>
-                <div class="input-group">
-                    <select required class="form-control" aria-label="Package">
-                        <option value="" disabled selected>Choose your package</option>
-                        <option value="monthly">Monthly Package</option>
-                        <option value="yearly">Yearly Package</option>
-                    </select>
-                </div>
-            </div>
+                                            <label class="form-label">Packages</label>
+                                            <div class="input-group">
+                                                <select required class="form-control" aria-label="Package">
+                                                    <option value="" disabled selected>Choose your package</option>
+                                                    <option value="monthly">Monthly Package</option>
+                                                    <option value="yearly">Yearly Package</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                        <button type="submit">Submit</button>
+                                        <button type="">Coming Soon</button>
                                     </div>
                                 </form>
                             </div>
-                            
 
-                            <!-- <form class="dz-form dzForm contact-bx form-container active" method="POST" action="script/contact_smtp.php">
-									
-                               
-									
-									<div class="row sp15">
-										<div class="col-md-12">
-											<label class="form-label">Full Name</label>
-											<div class="input-group">
-												<input name="dzName" required type="text" class="form-control" placeholder="Marchelo Queque">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<label class="form-label">Email address</label>
-											<div class="input-group">
-												<input name="dzEmail" required type="text" class="form-control" placeholder="marseloque@mail.com">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<label class="form-label">Phone Number</label>
-											<div class="input-group">
-												<input name="dzPhoneNumber" required type="text" class="form-control" placeholder="987 654 3210">
-											</div>
-										</div>
-										
-										<div class="col-md-12">
-											<label class="form-label">City</label>
-											<div class="input-group">
-												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Warsaw">
-											</div>
-										</div>
-										<div class="col-md-12">
-											<label class="form-label">Country</label>
-											<div class="input-group">
-												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Poland">
-											</div>
-										</div>
-										
-										
-											<button name="submit" type="submit" value="Submit" class="btn btn-secondary effect">Submit
-												
-											</button>
-										</div>
-										
-										
-									</div>
-								</form> -->
+
                         </div>
                     </div>
                 </div>
             </div>
+            <script>
+									document.addEventListener('DOMContentLoaded', function () {
+										const packageOptions = document.querySelectorAll('.package-option');
+										const formContainers = document.querySelectorAll('.form-container');
+
+										packageOptions.forEach(option => {
+											option.addEventListener('click', function () {
+												// Remove active class from all options
+												packageOptions.forEach(opt => opt.classList.remove('active'));
+
+												// Add active class to the clicked option
+												this.classList.add('active');
+
+												// Get the target form ID from the data-target attribute
+												const target = this.getAttribute('data-target');
+
+												// Hide all forms
+												formContainers.forEach(form => form.classList.remove('active'));
+
+												// Show the selected form
+												document.getElementById(target).classList.add('active');
+											});
+										});
+									});
+								</script>
         </div>
-    </section>
+    </section> -->
     <!-- volunteer -->
     <!-- Call Action -->
     <div class="call-action style-1 content-inner-1">
@@ -688,39 +675,39 @@
         }
     </script>
 
-    <div class="package-options">
-        <div class="package-option active" data-target="individual">
-            Individual
-        </div>
-        <div class="package-option" data-target="student">Student</div>
-        <div class="package-option" data-target="family">Family</div>
-    </div>
+    <!--<div class="package-options">-->
+    <!--    <div class="package-option active" data-target="individual">-->
+    <!--        Individual-->
+    <!--    </div>-->
+    <!--    <div class="package-option" data-target="student">Student</div>-->
+    <!--    <div class="package-option" data-target="family">Family</div>-->
+    <!--</div>-->
 
-    <div class="form-container active" id="individual">
-        <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <!--<div class="form-container active" id="individual">-->
+    <!--    <form>-->
+    <!--        <input type="text" placeholder="Name" required />-->
+    <!--        <input type="email" placeholder="Email" required />-->
+    <!--        <button type="">Coming Soon</button>-->
+    <!--    </form>-->
+    <!--</div>-->
 
-    <div class="form-container" id="student">
-        <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Student ID" required />
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <!--<div class="form-container" id="student">-->
+    <!--    <form>-->
+    <!--        <input type="text" placeholder="Name" required />-->
+    <!--        <input type="email" placeholder="Email" required />-->
+    <!--        <input type="text" placeholder="Student ID" required />-->
+    <!--        <button type="">Coming Soon</button>-->
+    <!--    </form>-->
+    <!--</div>-->
 
-    <div class="form-container" id="family">
-        <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Family Member Names" required />
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <!--<div class="form-container" id="family">-->
+    <!--    <form>-->
+    <!--        <input type="text" placeholder="Name" required />-->
+    <!--        <input type="email" placeholder="Email" required />-->
+    <!--        <input type="text" placeholder="Family Member Names" required />-->
+    <!--        <button type="">Coming Soon</button>-->
+    <!--    </form>-->
+    <!--</div>-->
     <script>
         //     document.querySelectorAll('.package-option').forEach(option => {
         //       option.addEventListener('click', function() {
@@ -744,5 +731,7 @@
         //     });
         //
     </script>
+
+    
     @endsection
 </div>

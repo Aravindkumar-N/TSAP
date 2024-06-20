@@ -8,10 +8,10 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="DexignZone">
 	<meta name="robots" content="">
-	<meta name="description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible">
-	<meta property="og:title" content="Akcel - Crowdfunding & Charity HTML5 Template">
-	<meta property="og:description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible">
-	<meta property="og:image" content="https://akcel.dexignzone.com/xhtml/social-image.png">
+	<meta name="description" content="Poland Tamil Sangam">
+	<meta property="og:title" content="Poland Tamil Sangam">
+	<meta property="og:description" content="Poland Tamil Sangam">
+	<meta property="og:image" content="https://polandtamilsangam.org/images/tamil_logo1.png">
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- Mobile Specific -->

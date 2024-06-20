@@ -7,12 +7,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
-	<meta name="author" content="DexignZone">
+	<meta name="author" content="Poland Tamil Sangam">
 	<meta name="robots" content="">
-	<meta name="description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible">
-	<meta property="og:title" content="Akcel - Crowdfunding & Charity HTML5 Template">
-	<meta property="og:description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible">
-	<meta property="og:image" content="https://akcel.dexignzone.com/xhtml/social-image.png">
+	<meta name="description" content="Poland Tamil Sangam">
+	<meta property="og:title" content="Poland Tamil Sangam">
+	<meta property="og:description" content="Poland Tamil Sangam">
+	<meta property="og:image" content="https://polandtamilsangam.org/images/tamil_logo1.png">
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- Mobile Specific -->
@@ -72,11 +72,11 @@
 				<a href="{{route('home')}}"><img src="{{asset('images/tamil_logo3.png')}}" alt=""></a>
 			</div>
 			<h1 class="dz-head">We Are Coming <span class="text-secondary">Soon !</span></h1>
-			<p>We`ll be here soon with our new awesome site, subscribe to be notified.</p>
-			<a href="route{{asset('contact_us')}}" class="btn btn-light btn-skew m-r15"> <span>GET IN TOUCH</span></a>
-			<a href="route{{asset('home')}}" data-bs-toggle="modal" data-bs-target="#SubscribeModal" class="btn btn-skew btn-secondary"><span>Visit Website</span></a>
+			<p>We`ll be here soon with our new awesome site</p>
+			<!--<a href="route{{asset('contact_us')}}" class="btn btn-light btn-skew m-r15"> <span>GET IN TOUCH</span></a>-->
+			<!--<a href="route{{asset('home')}}" data-bs-toggle="modal" data-bs-target="#SubscribeModal" class="btn btn-skew btn-secondary"><span>Visit Website</span></a>-->
 		</div>
-		<div class="countdown-timer countdown-container">
+		<div class="countdown-timer countdown-container" data-date="June 14, 2024 00:00:00">
 			<div class="clock">
 				<div class="clock-item clock-days countdown-time-value">
 					<div id="canvas-days" class="clock-canvas"></div>
@@ -143,7 +143,7 @@
 </div>
 
 <!-- JAVASCRIPT FILES ========================================= -->
-<script src="{{asset('js/jquery.min.j')}}s"></script><!-- JQUERY.MIN JS -->
+<script src="{{asset('js/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
 <script src="{{asset('vendor/wow/wow.js')}}')}}"></script><!-- WOW JS -->
 <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script><!-- BOOTSTRAP.MIN JS -->
 <script src="{{asset('vendor/countdown/kinetic.js')}}"></script><!-- COUNTDOWN JS -->

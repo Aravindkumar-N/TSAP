@@ -181,7 +181,7 @@
 								<p>Your generous contribution can transform lives and preserve Tamil culture in Poland. Support our mission and make a lasting impact!</p>
 							</div>
 							<div class="form-content">
-								<form class="dzForm" method="POST" action="script/contact_smtp.php">
+								<!--<form class="dzForm" method="POST" action="script/contact_smtp.php">-->
 									<input type="hidden" class="form-control" name="dzToDo" value="Contact">
 									<input type="hidden" class="form-control" name="reCaptchaEnable" value="0">
 									<div class="dzFormMsg"></div>
@@ -222,10 +222,11 @@
 											</div>
 										</div>
 										<div class="col-lg-12">
-											<button name="submit" type="submit" value="Submit" class="btn btn-dark">Donate Now</button>											
+											<!--<button name="submit" type="submit" onclick="alert('Donate Feature Coming Soon)" value="Submit" class="btn btn-dark">Donate Now</button>-->
+											<button onclick="alert('Donate Feature Coming Soon)" value="Submit" class="btn btn-dark">Donate Feature Coming Soon</button>
 										</div>
 									</div>
-								</form>
+								<!--</form>-->
 							</div>
 						</div>
 					</div> 
@@ -747,7 +748,7 @@
 										<ul class="dz-category">
 											<li><a href="javascript:void(0);">TECHNOLOGY</a></li>
 										</ul>
-										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">Things parents learned for they jids in 2020</a></h4>  
+										<h4 class="dz-title"><a href="{{route('browse_fundraiser')}}">Things parents learned for Thier Kids in 2024</a></h4>  
 										
 										<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex..</p> 
 										<!-- <div class="progress-bx style-2">
@@ -1047,39 +1048,7 @@
 		<!-- Our Blog End  -->	
 		
 		<!-- Client Logo -->
-		<div class="clients-wrapper">
-			<div class="container">
-				<div class="swiper clients-swiper">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="clients-logo">
-								<img class="logo-main" src="{{asset('images/clients-logo/logo1.png')}}" alt="">
-							</div>
-						</div>	
-						<div class="swiper-slide">
-							<div class="clients-logo">
-								<img class="logo-main" src="{{asset('images/clients-logo/logo2.png')}}" alt="">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="clients-logo">
-								<img class="logo-main" src="{{asset('images/clients-logo/logo3.png')}}" alt="">
-							</div>
-						</div>	
-						<div class="swiper-slide">
-							<div class="clients-logo">
-								<img class="logo-main" src="{{asset('images/clients-logo/logo4.png')}}" alt="">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="clients-logo">
-								<img class="logo-main" src="{{asset('images/clients-logo/logo5.png')}}" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	
 		<!-- Client Logo -->
 		
 		<!-- Call Action -->

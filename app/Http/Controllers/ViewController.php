@@ -105,7 +105,7 @@ class ViewController extends Controller
     public function noticeBoard(){
         return view('notice_board');
     }
-    public function anualReport(){
+    public function annualReport(){
         return view('anual_report');
     }
     public function offers(){
