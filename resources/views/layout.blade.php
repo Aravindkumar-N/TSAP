@@ -921,7 +921,17 @@
 					<!-- Login Your Account -->
 					<div class="modal-content">
 						<h2 class="title">Login Your Account</h2>
-						<form action="index.html">
+						<form action="{{ url('login') }}" method="POST">
+						@csrf
+						@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Email Address">
 							</div>
@@ -942,11 +952,11 @@
 									Facebook</a>
 							</div>
 							<div class="form-group">
-								<a href="javascript:void(0);" class="btn btn-sm google-plus btn-block"><i
+								<a href="{{url('auth/gmail')}}" class="btn btn-sm google-plus btn-block"><i
 										class="fa-brands fa-google m-r10"></i>Log in with Google</a>
 							</div>
 							<div class="sign-text">
-								<span>Don't have a Crowdfunding account? <a class="btn-link collapsed"
+								<span>Don't have a TSAP account? <a class="btn-link collapsed"
 										data-bs-toggle="collapse" href="#sign-up" role="button" aria-expanded="false"
 										aria-controls="sign-up">Sign up</a></span>
 							</div>
@@ -977,7 +987,17 @@
 					<!-- Sign Up Your Account -->
 					<div class="modal-content collapse sign-up" id="sign-up">
 						<h2 class="title">Sign Up Your Account</h2>
-						<form action="index.html">
+						<form action="{{ url('signup') }}" method="POST">
+							@csrf
+							@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Email Address">
 							</div>
@@ -997,7 +1017,7 @@
 										class="fa-brands fa-google m-r10"></i>Log in with Google</a>
 							</div>
 							<div class="sign-text">
-								<span>Don't have a Crowdfunding account? <a class="btn-link collapsed"
+								<span>Don't have a TSAP account? <a class="btn-link collapsed"
 										data-bs-toggle="collapse" href="#sign-up" role="button" aria-expanded="false"
 										aria-controls="sign-up">Login</a></span>
 							</div>

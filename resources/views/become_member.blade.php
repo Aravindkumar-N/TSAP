@@ -22,9 +22,10 @@
                         </p>
                       
                          
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
         Get membership<i class="flaticon-right-arrows ms-3 scale1"></i>
-    </button>
+    </button> -->
+    <a href="{{route('membership') }}" class="btn btn-secondary">Get membership<i class="flaticon-right-arrows ms-3 scale1"></i></a>
 
                         <!-- <a onclick="alert('Membership Feature Coming Soon!')" class="btn btn-secondary btnhover2 m-r15">Get membership
                             <i class="flaticon-right-arrows ms-3 scale1"></i></a> -->

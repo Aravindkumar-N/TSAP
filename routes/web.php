@@ -1,22 +1,35 @@
-<?php
+    <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FirstController;
-use App\Http\Controllers\ViewController;
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+    use Illuminate\Support\Facades\Route;
+    use App\Http\Controllers\FirstController;
+    use App\Http\Controllers\ViewController;
+    use App\Http\Controllers\AuthController;
+    use App\Http\Controllers\Auth\GoogleController;
+    use App\Http\Controllers\MembershipController;
+    use App\Http\Controllers\VolunteerController;
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+    /*
+    |--------------------------------------------------------------------------
+    | Web Routes
+    |--------------------------------------------------------------------------
+    |
+    | Here is where you can register web routes for your application. These
+    | routes are loaded by the RouteServiceProvider within a group which
+    | contains the "web" middleware group. Now create something great!
+    |
+    */
+
+    Route::get('/welcome', function () {
+        return view('welcome');
+    });
+
+    Route::get('auth/gmail', [GoogleController::class, 'redirectToGoogle']);
+    Route::get('auth/gmail/callback', [GoogleController::class, 'handleGoogleCallback']);
+    Route::post('login', [AuthController::class, 'login']);
+    Route::post('signup', [AuthController::class, 'signup']);
+
+
+
 // Route::resource('first',FirstController::class);
 //Route::get('/',[ViewController::class, 'comingSoon'])->name('coming_soon');
 Route::get('/',[ViewController::class, 'index2'])->name('home');
@@ -28,6 +41,7 @@ Route::get('/about_us',[ViewController::class, 'about'])->name('about_us');
 Route::get('/volunteer',[ViewController::class, 'volunteer'])->name('volunteer');
 Route::get('/become_volunteer',[ViewController::class, 'becomeVolunteer'])->name('become_volunteer');
 Route::get('/become_member',[ViewController::class, 'becomeMember'])->name('become_member');
+Route::get('/membership',[ViewController::class, 'Membership'])->name('membership');
 Route::get('/commercial',[ViewController::class, 'commercial'])->name('commercial');
 Route::get('/tamilnadu',[ViewController::class, 'tamilnadu'])->name('tamilnadu');
 Route::get('/faq',[ViewController::class, 'faq'])->name('faq');
@@ -56,3 +70,7 @@ Route::get('/notice_board',[ViewController::class, 'noticeBoard'])->name('notice
 Route::get('/annual_report',[ViewController::class, 'annualReport'])->name('annual_report');
 Route::get('/offers',[ViewController::class, 'offers'])->name('offers');
 Route::get('/gallery',[ViewController::class, 'gallery'])->name('gallery');
+
+Route::post('/membership_add', [MembershipController::class, 'store'])->name('membershipstore');
+
+Route::post('/volunteer/submit', [VolunteerController::class, 'submitForm'])->name('volunteerstore');

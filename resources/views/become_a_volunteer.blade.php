@@ -25,93 +25,113 @@
 		
 		<!-- Volunteer -->
 		<section class="gradient-white" style="background-image:url('images/background/bg1.jpg'); background-position: center;">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-xl-9 col-md-9 col-sm-12">
-						<div class="form-wrapper style-3">
-							<div class="contact-area">
-								<form class="dz-form dzForm contact-bx" method="POST" action="script/contact_smtp.php">
-									<div class="dzFormMsg"></div>
-									<input type="hidden" class="form-control" name="dzToDo" value="Contact">
-									<input type="hidden" class="form-control" name="reCaptchaEnable" value="0">
-									
-									<div class="row sp15">
-										<div class="col-md-12">
-											<label class="form-label">Full Name</label>
-											<div class="input-group">
-												<input name="dzName" required type="text" class="form-control" placeholder="Marchelo Queque">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<label class="form-label">Email address</label>
-											<div class="input-group">
-												<input name="dzEmail" required type="text" class="form-control" placeholder="marseloque@mail.com">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<label class="form-label">Phone Number</label>
-											<div class="input-group">
-												<input name="dzPhoneNumber" required type="text" class="form-control" placeholder="987 654 3210">
-											</div>
-										</div>
-										<div class="col-md-12 m-b20">
-										<label class="form-label">Gender</label>
-											<div class="form-check">
-											<label for="male">
-												<input type="radio" id="male" name="gender" value="male">
-												Male
-											</label>
-											<label for="female">
-												<input type="radio" id="female" name="gender" value="female">
-												Female
-											</label>
-											<label for="other">
-												<input type="radio" id="other" name="gender" value="other">
-												Other
-											</label>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<label class="form-label">City</label>
-											<div class="input-group">
-												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Warsaw">
-											</div>
-										</div>
-										<div class="col-md-12">
-											<label class="form-label">Country</label>
-											<div class="input-group">
-												<input name="dzOther[company_Name]" required type="text" class="form-control" placeholder="Poland">
-											</div>
-										</div>
-										<!-- <div class="col-md-12">
-											<label class="form-label">Message</label>
-											<div class="input-group">
-												<textarea name="dzMessage" rows="5" required class="form-control" placeholder="Dear Sir/Madam"></textarea>
-											</div>
-										</div> -->
-										<div class="col-md-12 m-b20">
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-												<label class="form-check-label" for="flexCheckDefault">
-													<a href="{{url('terms_condition')}}">Accept terms & conditions</a>
-												</label>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<button name="submit" type="submit" value="Submit" class="btn btn-secondary effect">RESGISTER
-												
-											</button>
-										</div>
-										
-										
-									</div>
-								</form>
-							</div>	
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-9 col-md-9 col-sm-12">
+                <div class="form-wrapper style-3">
+                    <div class="contact-area">
+                        <form class="vform" method="POST" action="{{ route('volunteerstore') }}">
+                            @csrf
+                            <div class="row sp15">
+                                <div class="col-md-12">
+                                    <label class="form-label">Full Name</label>
+                                    <div class="input-group">
+                                        <input name="name" required type="text" class="form-control" placeholder="Marchelo Queque">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email address</label>
+                                    <div class="input-group">
+                                        <input name="email" required type="email" class="form-control" placeholder="marseloque@mail.com">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <input name="phone_number" required type="text" class="form-control" placeholder="987 654 3210">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 m-b20">
+                                    <label class="form-label">Gender</label>
+                                    <div class="form-check">
+                                        <label for="male">
+                                            <input type="radio" id="male" name="gender" value="male">
+                                            Male
+                                        </label>
+                                        <label for="female">
+                                            <input type="radio" id="female" name="gender" value="female">
+                                            Female
+                                        </label>
+                                        <label for="other">
+                                            <input type="radio" id="other" name="gender" value="other">
+                                            Other
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label">Address</label>
+                                    <div class="input-group">
+                                        <input name="address" required type="text" class="form-control" placeholder="38, Cross Street">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label">City</label>
+                                    <div class="input-group">
+                                        <input name="city" required type="text" class="form-control" placeholder="Warsaw">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label">Postalcode</label>
+                                    <div class="input-group">
+                                        <input name="postalcode" required type="text" class="form-control" placeholder="98904825">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 m-b20">
+                                    <label class="form-label">Interests</label>
+                                    <div class="form-check">
+                                        <input type="checkbox" id="cultural_events" name="interests[]" value="Cultural Events">
+                                        <label for="cultural_events">Cultural Events</label><br>
+                                        <input type="checkbox" id="educational_programs" name="interests[]" value="Educational Programs">
+                                        <label for="educational_programs">Educational Programs</label><br>
+                                        <input type="checkbox" id="networking_opportunities" name="interests[]" value="Networking Opportunities">
+                                        <label for="networking_opportunities">Networking Opportunities</label><br>
+                                        <input type="checkbox" id="volunteer_activities" name="interests[]" value="Volunteer Activities">
+                                        <label for="volunteer_activities">Volunteer Activities</label><br>
+                                        <input type="checkbox" id="health_wellness_programs" name="interests[]" value="Health and Wellness Programs">
+                                        <label for="health_wellness_programs">Health and Wellness Programs</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label">Availability:</label>
+                                    <div class="input-group">
+                                        <select id="avail" name="avail" class="form-control" required>
+                                            <option value="">Select Preferred Availability</option>
+                                            <option value="Weekdays">Weekdays</option>
+                                            <option value="Weekends">Weekends</option>
+                                            <option value="Both">Both</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 m-b20">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="accept_terms" name="accept_terms" required>
+                                        <label class="form-check-label" for="accept_terms">
+                                            <a href="{{ url('terms_condition') }}">Accept terms & conditions</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-secondary effect" name="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 		<!-- volunteer -->
 
 		<!-- Counter -->

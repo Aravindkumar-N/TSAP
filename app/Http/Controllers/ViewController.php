@@ -30,6 +30,9 @@ class ViewController extends Controller
     public function becomeMember(){
         return view('become_member');
     }
+    public function Membership(){
+        return view('membership');
+    }
     public function commercial(){
         return view('commercial');
     }
