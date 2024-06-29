@@ -119,12 +119,12 @@
                         <br />
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic1.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic1.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Discounts on Indian Spices and
+                                    <a href="{{route('membership') }}">Discounts on Indian Spices and
                                         Groceries</a>
                                 </h5>
                                 <p>
@@ -137,12 +137,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic2.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic2.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Exclusive Access to Tamil Sangam
+                                    <a href="{{route('membership') }}">Exclusive Access to Tamil Sangam
                                         Events</a>
                                 </h5>
                                 <p>
@@ -155,12 +155,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic3.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic3.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Access to Tamil Library</a>
+                                    <a href="{{route('membership') }}">Access to Tamil Library</a>
                                 </h5>
                                 <p>
                                     Dive into a rich collection of Tamil
@@ -173,12 +173,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic4.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic4.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Legal and Immigration Assistance</a>
+                                    <a href="{{route('membership') }}">Legal and Immigration Assistance</a>
                                 </h5>
                                 <p>
                                     Navigate the complexities of legal and
@@ -190,12 +190,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic5.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic5.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Health and Wellness Support</a>
+                                    <ahref="{{route('membership') }}">Health and Wellness Support</a>
                                 </h5>
                                 <p>
                                     Stay healthy and well with access to health
@@ -208,12 +208,12 @@
 
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic6.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic6.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Educational Support</a>
+                                    <a href="{{route('membership') }}">Educational Support</a>
                                 </h5>
                                 <p>
                                     Unlock educational opportunities with
@@ -225,12 +225,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic7.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic7.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Networking Opportunities</a>
+                                    <a href="{{route('membership') }}">Networking Opportunities</a>
                                 </h5>
                                 <p>
                                     Expand your professional network with
@@ -242,12 +242,12 @@
                         </div>
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic8.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic8.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Travel Assistance</a>
+                                    <a href="{{route('membership') }}">Travel Assistance</a>
                                 </h5>
                                 <p>
                                     Travel with peace of mind knowing you have
@@ -257,26 +257,15 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="dz-card style-1 blog-half">
-								<div class="dz-media">
-									<a href="#membership"><img src="images/blog/blog-grid/pic9.jpg" alt=""></a>
-									<a href="#membership" class="btn btn-secondary">Get</a>
-								</div>
-								<div class="dz-info">
-									<h5 class="dz-title"><a href="#membership">Community Support Services</a></h5>
-									<p>Whether you're new to Poland or need a helping hand, our community support services assist with housing, job placements, and other essential needs.</p>
-									
-									
-								</div>
-							</div> -->
+                        
                         <div class="dz-card style-1 blog-half">
                             <div class="dz-media">
-                                <a href="#membership"><img src="images/blog/blog-grid/pic10.jpg" alt="" /></a>
-                                <a href="#membership" class="btn btn-secondary">Get</a>
+                                <a href="{{route('membership') }}"><img src="images/blog/blog-grid/pic10.jpg" alt="" /></a>
+                                <a href="{{route('membership') }}" class="btn btn-secondary">Get</a>
                             </div>
                             <div class="dz-info">
                                 <h5 class="dz-title">
-                                    <a href="#membership">Special Offers from Partner Brands</a>
+                                    <a href="{{route('membership') }}">Special Offers from Partner Brands</a>
                                 </h5>
                                 <p>
                                     ake advantage of exclusive deals and
@@ -415,8 +404,7 @@
                         community today and start making the most of what we
                         offer.
                     </p>
-                    <a class="btn btn-primary btnhover1" href="javascript:void(0);" data-bs-toggle="modal"
-                        data-bs-target="#myModal">
+                    <a class="btn btn-primary btnhover1" href="{{route('membership') }}" >
                         <span>Get membership</span>
                      
                     </a>
